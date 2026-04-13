@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="index, follow" />
+  <link rel="icon shortcut" href="/personal-blog/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/personal-blog/favicon.svg" type="image/svg+xml" id="favicon-svg" />
+<link rel="icon" href="/personal-blog/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="/personal-blog/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/personal-blog/apple-touch-icon.png" sizes="180x180" />
+<link fetchpriority="low" href="/personal-blog/site.webmanifest" rel="manifest" />
+<title>问卷调查中的中立选项是否可能影响数据分布？ – madSUNitist</title>
+  <meta name="description" content="今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：问卷调查中的中立选项是否可能影响数据分布？" /><link rel="canonical" href="https://madsunitist.github.io/personal-blog/blog/%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E4%B8%AD%E7%9A%84%E4%B8%AD%E7%AB%8B%E9%80%89%E9%A1%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83/" itemprop="url" />
+
+<meta property="og:title" content="问卷调查中的中立选项是否可能影响数据分布？">
+<meta
+  property="og:description"
+  content="
+    
+      今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：问卷调查中的中立选项是否可能影响数据分布？
+    
+  ">
+<meta
+  property="og:type"
+  content="
+    article
+  ">
+<meta property="og:url" content="https://madsunitist.github.io/personal-blog/blog/%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E4%B8%AD%E7%9A%84%E4%B8%AD%E7%AB%8B%E9%80%89%E9%A1%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83/"><meta property="article:section" content="blog">
+
+<meta
+  property="article:published_time"
+  content="2025-12-06T11:54:02+08:00">
+
+
+<meta
+  property="article:modified_time"
+  content="2025-12-06T11:54:02+08:00">
+
+
+
+  <meta itemprop="name" content="问卷调查中的中立选项是否可能影响数据分布？">
+  <meta itemprop="description" content="今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：问卷调查中的中立选项是否可能影响数据分布？">
+  <meta itemprop="datePublished" content="2025-12-06T11:54:02+08:00">
+  <meta itemprop="dateModified" content="2025-12-06T11:54:02+08:00">
+  <meta itemprop="wordCount" content="464">
+  <meta itemprop="keywords" content="🤔,浪费时间">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="问卷调查中的中立选项是否可能影响数据分布？">
+  <meta name="twitter:description" content="今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：问卷调查中的中立选项是否可能影响数据分布？">
+
+    <link rel="preload" href="/personal-blog/css/compiled/main.min.860421afd86baea436520550e3f5b912c5d0ca8bfec32b073ac5871b3ae0ca74.css" as="style" integrity="sha256-hgQhr9hrrqQ2UgVQ4/W5EsXQyov&#43;wysHOsWHGzrgynQ=" />
+    <link href="/personal-blog/css/compiled/main.min.860421afd86baea436520550e3f5b912c5d0ca8bfec32b073ac5871b3ae0ca74.css" rel="stylesheet" integrity="sha256-hgQhr9hrrqQ2UgVQ4/W5EsXQyov&#43;wysHOsWHGzrgynQ=" />
+
+  
+
+
+
+
+
+
+  <script>
+    
+
+    function setTheme(theme) {
+      document.documentElement.classList.remove("light", "dark");
+
+      if (theme !== "light" && theme !== "dark") {
+       theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+
+      document.documentElement.classList.add(theme);
+      document.documentElement.style.colorScheme = theme;
+    }
+
+    setTheme("color-theme" in localStorage ? localStorage.getItem("color-theme") : 'system')
+
+  </script>
+
+  <script>
+    
+
+    if (localStorage.getItem('banner-closed')) {
+      document.documentElement.style.setProperty("--hextra-banner-height", "0px");
+      document.documentElement.classList.add("hextra-banner-hidden");
+    }
+  </script>
+
+  
+  <link rel="stylesheet" href="/personal-blog/css/katex.min.cd173d95605a3d3a86d2ddb11105030fcfebbcb4ec3d6f3bf2c77ec10c573fb216b79eab87d283dd6c30c787f8b1066eb6cc6b0453118723309fb35a099e529d.css" integrity="sha512-zRc9lWBaPTqG0t2xEQUDD8/rvLTsPW878sd&#43;wQxXP7IWt56rh9KD3Wwwx4f4sQZutsxrBFMRhyMwn7NaCZ5SnQ==" />
+  </head>
+<body><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
+  <div
+    class="hextra-nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"
+  ></div>
+
+  <nav class="hextra-max-navbar-width hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6">
+    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/personal-blog">
+    <img class="hx:mr-2 hx:block hx:dark:hidden" src="/personal-blog/images/madSUNitist-logo.png" alt="Logo" height="20" width="40" />
+    <img class="hx:mr-2 hx:hidden hx:dark:block" src="/personal-blog/images/madSUNitist-logo.png" alt="Dark Logo" height="20" width="40" />
+    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none" title="madSUNitist">madSUNitist</span>
+</a>
+<a
+  title=""
+  href="/personal-blog/docs"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">笔记</span>
+</a><a
+  title=""
+  href="/personal-blog/blog"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:font-medium"
+><span class="hx:text-center">博客</span>
+</a><a
+  title=""
+  href="/personal-blog/about"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">关于</span>
+</a><div class="hextra-search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="Search..."
+      class="hextra-search-input hx:focus:hextra-focus hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus:bg-white hx:dark:focus:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+<button type="button" aria-label="Menu" class="hextra-hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
+  </nav>
+</div>
+
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:hidden hx:xl:block">
+  
+  <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+    <div class="hextra-search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="Search..."
+      class="hextra-search-input hx:focus:hextra-focus hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus:bg-white hx:dark:focus:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+
+  </div>
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
+      
+      
+          <li class=""><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/about/"
+    
+  >关于
+    </a></li>
+          <li class=""><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/"
+    
+  >笔记
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a><div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/"
+    
+  >分析化学
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/"
+    
+  >第1章 概论
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/1.2-%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95%E7%9A%84%E5%88%86%E7%B1%BB%E4%B8%8E%E9%80%89%E6%8B%A9/"
+    
+  >分析方法的分类与选择
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/1.4-%E5%88%86%E6%9E%90%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%88%86%E6%9E%90%E7%BB%93%E6%9E%9C%E7%9A%84%E8%A1%A8%E7%A4%BA%E6%96%B9%E6%B3%95/"
+    
+  >分析过程及分析结果的表示方法
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/1.5-%E6%BB%B4%E5%AE%9A%E5%88%86%E6%9E%90%E6%B3%95%E6%A6%82%E8%BF%B0/"
+    
+  >滴定分析法概述
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/1.6-%E5%9F%BA%E5%87%86%E7%89%A9%E8%B4%A8%E4%B8%8E%E6%A0%87%E5%87%86%E6%BA%B6%E6%B6%B2/"
+    
+  >基准物质与标准溶液
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-1/1.7-%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97/"
+    
+  >分析化学中的计算
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-2/"
+    
+  >第2章 分析试样的采集与处理
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-2/2.1-%E5%BC%8F%E6%A0%B7%E7%9A%84%E9%87%87%E9%9B%86/"
+    
+  >试样的采集
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/"
+    
+  >第3章 分析化学中的误差与数据处理
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.1-%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AF%AF%E5%B7%AE/"
+    
+  >误差与偏差
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.2-%E6%9C%89%E6%95%88%E6%95%B0%E5%AD%97%E5%8F%8A%E5%85%B6%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99/"
+    
+  >有效数字及其运算法则
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.3-%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/"
+    
+  >分析化学中的数据处理
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.4-%E6%98%BE%E8%91%97%E6%80%A7%E6%A3%80%E9%AA%8C/"
+    
+  >显著性检验
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.5-%E5%8F%AF%E7%96%91%E5%80%BC%E5%8F%96%E8%88%8D/"
+    
+  >可疑值取舍
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.6-%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90/"
+    
+  >回归分析
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-3/3.7-%E6%8F%90%E9%AB%98%E5%88%86%E6%9E%90%E7%BB%93%E6%9E%9C%E5%87%86%E7%A1%AE%E5%BA%A6%E7%9A%84%E6%96%B9%E6%B3%95/"
+    
+  >提高分析结果准确度的方法
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/"
+    
+  >第5章 酸碱滴定法
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.1-%E6%BA%B6%E6%B6%B2%E4%B8%AD%E7%9A%84%E9%85%B8%E7%A2%B1%E5%8F%8D%E5%BA%94%E4%B8%8E%E5%B9%B3%E8%A1%A1/"
+    
+  >溶液中的酸碱反应与平衡
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.2-%E9%85%B8%E7%A2%B1%E7%BB%84%E5%88%86%E7%9A%84%E5%B9%B3%E8%A1%A1%E6%B5%93%E5%BA%A6%E4%B8%8E%E5%88%86%E5%B8%83%E7%B3%BB%E6%95%B0/"
+    
+  >酸碱组分的平衡浓度与分布系数
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.3-%E6%BA%B6%E6%B6%B2%E4%B8%AD-h&#43;-%E6%B5%93%E5%BA%A6%E7%9A%84%E8%AE%A1%E7%AE%97/"
+    
+  >溶液中 H(&#43;) 浓度的计算
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.5-%E9%85%B8%E7%A2%B1%E7%BC%93%E5%86%B2%E6%BA%B6%E6%B6%B2/"
+    
+  >酸碱缓冲溶液
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.6-%E9%85%B8%E7%A2%B1%E6%8C%87%E7%A4%BA%E5%89%82/"
+    
+  >酸碱指示剂
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.7-%E9%85%B8%E7%A2%B1%E6%BB%B4%E5%AE%9A%E5%8E%9F%E7%90%86/"
+    
+  >酸碱滴定原理
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.8-%E7%BB%88%E7%82%B9%E8%AF%AF%E5%B7%AE/"
+    
+  >终点误差
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.9-%E9%85%B8%E7%A2%B1%E6%BB%B4%E5%AE%9A%E6%B3%95%E7%9A%84%E5%BA%94%E7%94%A8/"
+    
+  >酸碱滴定法的应用
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-5/5.10-%E9%9D%9E%E6%B0%B4%E6%BA%B6%E6%B6%B2%E4%B8%AD%E7%9A%84%E9%85%B8%E7%A2%B1%E6%BB%B4%E5%AE%9A/"
+    
+  >非水溶液中的酸碱滴定
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-6/"
+    
+  >第6章 配位滴定法
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/chapter-6/6.1-%E9%85%8D%E4%BD%8D%E6%BB%B4%E5%AE%9A%E4%B8%AD%E7%9A%84%E6%BB%B4%E5%AE%9A%E5%89%82/"
+    
+  >配位滴定中的滴定剂
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/docs/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"
+    
+  >线性代数
+    </a>
+              
+            </li></ul>
+      </div></li>
+          <li class="open"><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/"
+    
+  >Blog
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a><div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_7/"
+    
+  >无机化学 复习 第七章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_5/"
+    
+  >无机化学 复习 第五章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_4/"
+    
+  >无机化学 复习 第四章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_3/"
+    
+  >无机化学 复习 第三章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_2/"
+    
+  >无机化学 复习 第二章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/chemistry_review_chapter_1/"
+    
+  >无机化学 复习 第一章
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col open"><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
+    href="/personal-blog/blog/%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E4%B8%AD%E7%9A%84%E4%B8%AD%E7%AB%8B%E9%80%89%E9%A1%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83/"
+    
+  >问卷调查中的中立选项是否可能影响数据分布？
+    </a>
+  
+    <ul class='hx:flex hx:flex-col hx:gap-1 hx:relative hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:dark:before:bg-neutral-800 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:pr-3 hx:rtl:before:right-0 hx:ltr:ml-3 hx:rtl:mr-3'><li>
+              <a
+                href="#01-%e5%ae%9e%e9%aa%8c%e8%ae%be%e8%ae%a1"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >01 实验设计</a>
+            </li>
+          <li>
+              <a
+                href="#02-%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >02 数据预处理</a>
+            </li>
+          <li>
+              <a
+                href="#03-%e5%85%b3%e8%81%94%e4%bf%a1%e5%8f%b7%e5%87%8f%e5%bc%b1"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >03 关联信号减弱</a>
+            </li>
+          <li>
+              <a
+                href="#04-%e7%a8%b3%e5%ae%9a%e6%80%a7%e5%88%86%e6%9e%90"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >04 稳定性分析</a>
+            </li>
+          <li>
+              <a
+                href="#05-%e5%8d%8f%e5%8f%98%e9%87%8f"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >05 协变量</a>
+            </li>
+          <li>
+              <a
+                href="#06-%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e7%9a%84%e5%90%b8%e7%a7%af%e6%95%88%e5%ba%94"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >06 中立选项的吸积效应</a>
+            </li>
+          <li>
+              <a
+                href="#07-%e5%bc%ba%e5%88%b6%e9%80%89%e6%8b%a9%e7%9a%84%e7%bb%93%e6%9e%9c%e6%98%af%e7%9c%9f%e5%ae%9e%e8%b6%8b%e5%8a%bf%e8%bf%98%e6%98%af%e7%bb%9f%e8%ae%a1%e5%b9%bb%e8%b1%a1"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >07 强制选择的结果是“真实趋势&#34;还是&#34;统计幻象&#34;？</a>
+            </li>
+          <li>
+              <a
+                href="#08-%e7%bb%93%e8%ae%ba%e4%b8%8e%e5%8f%8d%e6%80%9d"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              >08 结论与反思</a>
+            </li>
+          </ul>
+  
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/paper-reading_negative-verbal-probabilities-undermine-communication-of-climate-science/"
+    
+  >Paper-reading: Negative Verbal Probabilities Undermine Communication of Climate Science
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E6%95%B0%E5%AD%A6%E7%AB%A0%E8%8A%82%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0_%E5%85%AC%E5%BC%8F%E6%95%B4%E7%90%86/"
+    
+  >数学章节测试复习  公式整理
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98_20251127_2/"
+    
+  >每日一题
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98_20251127/"
+    
+  >每日一题
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E6%A0%BC%E5%BC%8F%E4%B8%8E%E8%A7%84%E8%8C%83/"
+    
+  >格式与规范
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98_20251126/"
+    
+  >每日一题
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/personal-blog/blog/%E5%87%B8%E5%87%BD%E6%95%B0%E7%9B%B8%E5%85%B3%E7%9A%84%E6%95%B4%E7%90%86%E5%92%8C%E6%80%9D%E8%80%83/"
+    
+  >凸函数相关的整理和思考
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div></div>
+  
+  
+    <div class="hx:md:hidden  hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show"><div class="hx:flex hx:grow hx:flex-col"><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="Change theme"
+    data-state="closed"
+    data-location="bottom"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="Change theme"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">Light</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">Dark</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">System</span></div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-md hx:ring-1 hx:ring-black/5 hx:bg-white hx:py-1 hx:text-sm hx:shadow-lg hx:dark:ring-white/20 hx:dark:bg-neutral-800"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+  >
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="light"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        Light
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="dark"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        Dark
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="system"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        System
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+  </ul>
+</div></div></div></aside>
+    
+<nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="table of contents">
+    <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#01-%e5%ae%9e%e9%aa%8c%e8%ae%be%e8%ae%a1">01 实验设计
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#02-%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86">02 数据预处理
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#03-%e5%85%b3%e8%81%94%e4%bf%a1%e5%8f%b7%e5%87%8f%e5%bc%b1">03 关联信号减弱
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#04-%e7%a8%b3%e5%ae%9a%e6%80%a7%e5%88%86%e6%9e%90">04 稳定性分析
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#05-%e5%8d%8f%e5%8f%98%e9%87%8f">05 协变量
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#06-%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e7%9a%84%e5%90%b8%e7%a7%af%e6%95%88%e5%ba%94">06 中立选项的吸积效应
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#07-%e5%bc%ba%e5%88%b6%e9%80%89%e6%8b%a9%e7%9a%84%e7%bb%93%e6%9e%9c%e6%98%af%e7%9c%9f%e5%ae%9e%e8%b6%8b%e5%8a%bf%e8%bf%98%e6%98%af%e7%bb%9f%e8%ae%a1%e5%b9%bb%e8%b1%a1">07 强制选择的结果是“真实趋势&#34;还是&#34;统计幻象&#34;？
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%b8%80%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e8%a2%ab%e8%bf%ab%e4%ba%8c%e9%80%89%e4%b8%80%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88">模拟实验一：如果 A 组的人被迫二选一，会发生什么？
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e7%89%b9%e5%be%81%e7%9a%84%e6%96%ad%e8%a3%82%e6%b7%b7%e5%90%88%e7%be%a4%e4%bd%93%e5%b9%b6%e4%b8%8d%e4%b8%ad%e5%ba%b8">特征的断裂：混合群体并不&#34;中庸”
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%ba%8c%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e5%8f%aa%e8%83%bd%e7%9c%8b%e5%88%b0%e9%83%a8%e5%88%86%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88">模拟实验二：如果 A 组的人只能看到部分中立选项，会发生什么？
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e7%bb%93%e6%9e%9c%e9%9a%8f%e6%9c%ba%e5%99%aa%e5%a3%b0%e5%86%8d%e6%ac%a1%e8%83%9c%e5%88%a9">结果：随机噪声再次胜利
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e6%a8%aa%e5%90%91%e5%af%b9%e6%af%94%e6%89%80%e6%9c%89%e7%89%88%e6%9c%ac%e7%9a%84%e9%80%89%e6%8b%a9%e6%a8%a1%e5%bc%8f">横向对比：所有版本的选择模式
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e6%a0%b7%e6%9c%ac%e9%87%8f%e5%91%8a%e6%80%a5--">样本量告急 : (
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#08-%e7%bb%93%e8%ae%ba%e4%b8%8e%e5%8f%8d%e6%80%9d">08 结论与反思
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#%e5%af%b9%e9%97%ae%e5%8d%b7%e8%ae%be%e8%ae%a1%e7%9a%84%e5%90%af%e7%a4%ba%e5%8d%95%e4%b8%80%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e6%83%85%e5%a2%83%e7%9a%84%e5%bb%b6%e4%bc%b8%e8%ae%a8%e8%ae%ba">对问卷设计的启示：“单一中立选项”情境的延伸讨论
+        </a>
+      </li></ul>
+      <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400"><div class="hx:flex hx:items-start hx:gap-x-2 hx:font-medium hx:text-xs">
+            <div class="hx:text-gray-500 hx:dark:text-gray-400 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">Tags</div>
+            <div class="hx:flex hx:flex-wrap hx:gap-y-1">
+              <a class="hx:inline-block hx:whitespace-nowrap hx:mr-2 hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50" href="/personal-blog/tags/">#🤔</a><a class="hx:inline-block hx:whitespace-nowrap hx:mr-2 hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50" href="/personal-blog/tags/%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4/">#浪费时间</a>
+            </div>
+          </div>
+        <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx:cursor-pointer hx:transition-all hx:duration-75 hx:opacity-0 hx:text-xs hx:font-medium hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">
+          <span>Scroll to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hx:inline hx:ltr:ml-1 hx:rtl:mr-1 hx:h-3.5 hx:w-3.5 hx:rounded-full hx:border hx:border-gray-500 hx:hover:border-gray-900 hx:dark:border-gray-400 hx:dark:hover:border-gray-100 hx:contrast-more:border-gray-800 hx:contrast-more:dark:border-gray-50">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        <div class="hx:mt-1.5 hx:flex hx:items-center hx:gap-1 hx:overflow-hidden hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:contrast-more:text-current">
+        <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
+          <a href="/personal-blog/blog/">Blog</a>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">问卷调查中的中立选项是否可能影响数据分布？</div>
+  </div>
+
+        <h1 class="hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">问卷调查中的中立选项是否可能影响数据分布？</h1>
+        <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2"><span class="hx:mr-1">December 6, 2025</span><span class="hx:mx-1">·</span><a
+                  href="https://github.com/madSUNitist" target="_blank"
+                  class="hx:group hx:inline-flex hx:items-center hx:text-current hx:gap-x-1.5 hx:mx-1"
+                  title="madSUNitist"
+                ><img src="/personal-blog/images/madSUNitist.jpg" alt="madSUNitist" class="hx:inline-block hx:h-4 hx:w-4 hx:rounded-full" loading="lazy" />
+                  <div class="hx:group-hover:underline">madSUNitist</div>
+                </a><a
+                  
+                  class="hx:group hx:inline-flex hx:items-center hx:text-current hx:gap-x-1.5 hx:mx-1"
+                  title="yawnist"
+                ><img src="/personal-blog/images/yawnist.jpg" alt="yawnist" class="hx:inline-block hx:h-4 hx:w-4 hx:rounded-full" loading="lazy" />
+                  <div class="hx:group-hover:underline">yawnist</div>
+                </a></div>
+        <div class="content">
+          <p>今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：<strong>问卷调查中的中立选项是否可能影响数据分布？</strong></p>
+<p>询问作者“既喜欢猫又喜欢狗的人应该选什么选项”之后，作者说：</p>
+<blockquote>
+  <p>为了避免大家都选都喜欢，我特地删了这个选项，所以只能选出更喜欢的</p>
+
+</blockquote>
+<p>但是直觉告诉我，这样的话，都喜欢的人会以噪声的形式落入统计数据，进而造成数据污染。关键在于，一个人两者都喜欢的的人不一定能保证今天和明天“硬选”出来的选项是相同的，这在研究关联性的统计中不一定站得住脚。</p>
+<p>但是转念又想，万一这种“更”的趋势真的能反映在数据中呢？毕竟没有确凿的证据证明我的直觉是对的。于是我设计了以下实验（当然，由于资源和时间限制，我没有设置完整的对照试验，不然我需要用完 8 个问卷星账号的问卷互填的点数，我才不干🤣）</p>
+<p><strong>声明：纯做着玩，没有对照组，资源有限，结论不严谨，已经有相关研究，浪费时间</strong></p>
+<hr>
+<h2>01 实验设计<span class="hx:absolute hx:-mt-20" id="01-实验设计"></span>
+    <a href="#01-%e5%ae%9e%e9%aa%8c%e8%ae%be%e8%ae%a1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>理想的实验需要同一批人在不同条件下重复作答，但我摆了对照组😋。我的替代方案是设计<strong>四个平行版本</strong>的问卷，每个版本在中立选项的设置上有所不同，构成一个类实验设计：</p>
+<ul>
+<li><strong>版本 A（对照组蓝图）</strong>：同时提供“<strong>都喜欢</strong>”和“<strong>都不喜欢</strong>”选项。这是我探究真实分布的理想参照。</li>
+<li><strong>版本 B（只有“都喜欢”）</strong>：仅提供“<strong>都喜欢</strong>”选项，不提供“都不喜欢”。</li>
+<li><strong>版本 C（只有“都不喜欢”）</strong>：仅提供“<strong>都不喜欢</strong>”选项，不提供“都喜欢”。</li>
+<li><strong>版本 D（强制选择）</strong>：两个中立选项都<strong>不提供</strong>，参与者必须在电影和书籍中强制二选一。这模拟了我同学问卷的设计。</li>
+</ul>
+<p>所有版本都包含相同的背景问题，用于测量参与者在电影和书籍上的真实参与度、身份认同和行为倾向，例如“过去一个月您看电影的频率”、“您认为自己是影迷吗？”等。</p>
+<p>这样，版本 A 揭示了人群的真实构成（有多少明确偏好者，有多少中立者），而其他版本则像施加了不同的“滤镜”，让我观察强制选择或部分选择如何改变数据的模样。关键在于，<strong>如果中立选项无关紧要，那么四个版本中，那些“明确选择了电影或书籍”的群体，他们的行为特征应该是相似的</strong>。</p>
+<h2>02 数据预处理<span class="hx:absolute hx:-mt-20" id="02-数据预处理"></span>
+    <a href="#02-%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>通过互填问卷渠道收集数据，不可避免地会混入一些无效作答。为了确保分析质量，我首先剔除了所有<strong>作答时间短于 15 秒</strong>的记录，这类记录极可能是随意点击的结果。</p>
+<p>经过努力，我拿到了 417 份样本。清理后（也就是剔除作答时间 &lt; 15s 的样本后），我得到了 <strong>271 份有效样本</strong>，在各版本间分布相对均衡。</p>
+<p>在分析之前，我面临一个根本的翻译问题：如何将“几乎每天”、“是”、“立即观看”这些分类选项，转化为可以进行数学比较和关联分析的<strong>行为强度分数</strong>？</p>
+<p>这不是一个中立的转换。每一个数字的赋予，都隐含了我对于“什么是更强的参与”的价值判断。整个过程，更像是在数据的语法规则下，进行一次谨慎的编码。</p>
+<p><strong>首先，是统一方向</strong>。频率题中，1 代表“几乎每天”，5 代表“几乎没有”。我希望一个表示“高参与度”的变量，其<strong>数值也应该更高</strong>。所以，第一项操作是线性反转：
+</p>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>电影参与度</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>6</mn><mo>−</mo><mtext>电影频率原始值</mtext></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>书籍参与度</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>6</mn><mo>−</mo><mtext>书籍频率原始值</mtext></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex"> \begin{aligned} 
+  \text{电影参与度} &amp;= 6 - \text{电影频率原始值} \\
+  \text{书籍参与度} &amp;= 6 - \text{书籍频率原始值}
+\end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">电影参与度</span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">书籍参与度</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord cjk_fallback">电影频率原始值</span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord cjk_fallback">书籍频率原始值</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span></span></span></span></span><p><strong>其次，是整合维度</strong>。仅有频率不够。一个人自称“影迷”（身份认同），或者有新片必看（行为积极性），都是更强烈的信号。因此，我将身份题（是/否）转换为 1 和 0，将行为题（立即观看、稍后看、不关注）也反转编码为 3、2、1 分。</p>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>身份</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mrow><mo fence="true">{</mo><mtable rowspacing="0.36em" columnalign="left left" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>if “是&quot;</mtext></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>if “否&quot;</mtext></mstyle></mtd></mtr></mtable></mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>行为积极性</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mrow><mo fence="true">{</mo><mtable rowspacing="0.36em" columnalign="left left" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>3</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>if “立即观看&quot;</mtext></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>2</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>if “稍后看&quot;</mtext></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>if “不关注&quot;</mtext></mstyle></mtd></mtr></mtable></mrow></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex"> \begin{aligned}
+  \text{身份} &amp;= \begin{cases}
+    1 &amp; \text{if ``是&quot;} \\
+    0 &amp; \text{if ``否&quot;}
+  \end{cases} \\
+  \text{行为积极性} &amp;= \begin{cases}  
+    3 &amp; \text{if ``立即观看&quot;} \\
+    2 &amp; \text{if ``稍后看&quot;} \\
+    1 &amp; \text{if ``不关注&quot;}
+  \end{cases}
+\end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:7.92em;vertical-align:-3.71em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:4.21em;"><span style="top:-6.87em;"><span class="pstrut" style="height:4.41em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">身份</span></span></span></span><span style="top:-2.91em;"><span class="pstrut" style="height:4.41em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">行为积极性</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.71em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:4.21em;"><span style="top:-6.87em;"><span class="pstrut" style="height:4.41em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:1em;"></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord">if “</span><span class="mord cjk_fallback">是</span><span class="mord">&quot;</span></span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord">if “</span><span class="mord cjk_fallback">否</span><span class="mord">&quot;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-2.91em;"><span class="pstrut" style="height:4.41em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-2.2em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎩</span></span></span><span style="top:-2.192em;"><span class="pstrut" style="height:3.15em;"></span><span style="height:0.316em;width:0.8889em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.8889em" height="0.316em" style="width:0.8889em" viewBox="0 0 888.89 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"/></svg></span></span><span style="top:-3.15em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎨</span></span></span><span style="top:-4.292em;"><span class="pstrut" style="height:3.15em;"></span><span style="height:0.316em;width:0.8889em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.8889em" height="0.316em" style="width:0.8889em" viewBox="0 0 888.89 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"/></svg></span></span><span style="top:-4.6em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-1.53em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.91em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:1em;"></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord">if “</span><span class="mord cjk_fallback">立即观看</span><span class="mord">&quot;</span></span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord">if “</span><span class="mord cjk_fallback">稍后看</span><span class="mord">&quot;</span></span></span></span><span style="top:-1.53em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord">if “</span><span class="mord cjk_fallback">不关注</span><span class="mord">&quot;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.91em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.71em;"><span></span></span></span></span></span></span></span></span></span></span></span><p>但是，一个自称影迷（身份 = 1）但看得不多（参与度 = 2）的人，整体上到底有多“电影偏好”？我需要一个单一的综合指标。</p>
+<p>于是，我构建了“<strong>偏好分数</strong>”，其核心思想是计算电影侧与书籍侧在所有维度上的加权差值：</p>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mtext>偏好分数</mtext><mo>=</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="false">(</mo><mtext>电影参与度</mtext><mo>−</mo><mtext>书籍参与度</mtext><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mo lspace="0em" rspace="0em">+</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy="false">(</mo><mtext>影迷身份</mtext><mo>−</mo><mtext>书迷身份</mtext><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mo lspace="0em" rspace="0em">+</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="false">(</mo><mtext>电影行为积极性</mtext><mo>−</mo><mtext>书籍行为积极性</mtext><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex"> \begin{aligned}
+  \text{偏好分数} = &amp;\frac{1}{3}(\text{电影参与度} - \text{书籍参与度}) \\
+                 + &amp;\frac{2}{3}(\text{影迷身份} - \text{书迷身份}) \\ 
+                 + &amp;\frac{1}{3}(\text{电影行为积极性} - \text{书籍行为积极性})
+\end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:6.9223em;vertical-align:-3.2112em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.7112em;"><span style="top:-5.7112em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">偏好分数</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span></span></span><span style="top:-3.4037em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord">+</span></span></span><span style="top:-1.0963em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord">+</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.2112em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.7112em;"><span style="top:-5.7112em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">电影参与度</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord cjk_fallback">书籍参与度</span></span><span class="mclose">)</span></span></span><span style="top:-3.4037em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">影迷身份</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord cjk_fallback">书迷身份</span></span><span class="mclose">)</span></span></span><span style="top:-1.0963em;"><span class="pstrut" style="height:3.3214em;"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">电影行为积极性</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord cjk_fallback">书籍行为积极性</span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.2112em;"><span></span></span></span></span></span></span></span></span></span></span></span><p><strong>这个公式是理解后续所有分析的关键</strong>：</p>
+<ul>
+<li><strong>结果为正</strong>：综合行为偏向电影。</li>
+<li><strong>结果为负</strong>：综合行为偏向书籍。</li>
+<li><strong>结果接近零</strong>：行为上是个“中立派”，两种活动参与度相当。</li>
+<li><strong>为何身份权重是2？</strong> 这是一个基于行为科学直觉的假设：宣称自己是“影迷”或“书迷”，是一种更强的认知承诺和社会标签，它可能比一时的行为频率更能稳定地反映核心偏好。这个“2”是一个经过推敲的假设值，它强调了身份认同的突出性，但又未过分到完全主宰整个分数。</li>
+</ul>
+<p>至此，我完成了从<strong>离散选项</strong>到<strong>连续谱系</strong>的映射。这个分数，便是后续所有关联分析的基石。当我比较不同问卷版本中“电影组”和“书籍组”的差异时，我比较的正是他们在这个<strong>综合行为谱系</strong>上的平均位置之差。</p>
+<h2>03 关联信号减弱<span class="hx:absolute hx:-mt-20" id="03-关联信号减弱"></span>
+    <a href="#03-%e5%85%b3%e8%81%94%e4%bf%a1%e5%8f%b7%e5%87%8f%e5%bc%b1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>实验的核心假设是：<strong>强制选择会引入噪声，从而稀释或扭曲“偏好”与“其他行为特征”之间本应存在的关联</strong>。简单说，就是模糊了电影爱好者和书籍爱好者之间的真实差异。</p>
+<p>为了检验这一点，我分别计算了每个版本中，“电影组”和“书籍组”在多项行为指标上的平均得分。如果我的假设成立，我会看到一个清晰的模式：</p>
+<ul>
+<li><strong>在允许表达中立的版本（A、B）中</strong>，“硬选”出来的电影组和书籍组，其行为差异应该<strong>更鲜明</strong>。因为大量中立者已被分流，剩下的多是“纯度”较高的偏好者。</li>
+<li><strong>在强制选择的版本（D）中</strong>，两组的行为差异应该<strong>被冲淡、更模糊</strong>。因为每组都混入了被迫站队的“中立者”，他们拉平了组间的特征差异。</li>
+</ul>
+<p>数据完美地印证了这个模式。让我以“电影参与度”这个核心指标为例：</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">问卷版本</th>
+          <th style="text-align: left">电影组的平均参与度</th>
+          <th style="text-align: left">书籍组的平均参与度</th>
+          <th style="text-align: left"><strong>组间差异</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>A（全选项）</strong></td>
+          <td style="text-align: left"><strong>2.96</strong></td>
+          <td style="text-align: left"><strong>1.80</strong></td>
+          <td style="text-align: left"><strong>+1.16</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">B（仅“都喜欢”）</td>
+          <td style="text-align: left">2.89</td>
+          <td style="text-align: left">2.12</td>
+          <td style="text-align: left">+0.76</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">C（仅“都不喜欢”）</td>
+          <td style="text-align: left">3.06</td>
+          <td style="text-align: left">3.05</td>
+          <td style="text-align: left">+0.01</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>D（强制选择）</strong></td>
+          <td style="text-align: left"><strong>3.07</strong></td>
+          <td style="text-align: left"><strong>2.42</strong></td>
+          <td style="text-align: left"><strong>+0.65</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>
+    <img src="../association_strength_comparison.png" alt="association_strength_comparison.png"  loading="lazy" /></p>
+<p>这张表格揭示了一个有趣的故事。在提供“都喜欢”选项的 A 组中，电影爱好者与书籍爱好者在电影参与度上差异最大（1.16 分）。而在强迫所有人站队的 D 版本中，这个差异缩小了近一半（0.65 分）。<strong>这直观地说明，强制选择就像在清晰的信号里加入了噪声，让原本 distinct 的群体特征变得模糊</strong>。</p>
+<p>最极端的是 C 版本（仅有“都不喜欢”选项），组间差异几乎为零（0.01 分）。这可能是因为“都不喜欢”是一个强烈且少见的表态，选择它的人和明确选择电影/书籍的人，在某些行为上可能本身就比较接近，或者样本量问题导致了不稳定结果。</p>
+<p>统计检验进一步支持了这一发现。我建立了一个回归模型，检验“问卷版本”是否会调节“偏好”对“电影参与度”的影响。<strong>模型中的交互项显著（p &lt; 0.05）</strong>，这从统计上证实了：<strong>“偏好”与“行为”之间的关系强度，确实因问卷格式的不同而发生了改变</strong>。</p>
+<h2>04 稳定性分析<span class="hx:absolute hx:-mt-20" id="04-稳定性分析"></span>
+    <a href="#04-%e7%a8%b3%e5%ae%9a%e6%80%a7%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>为评估不同问卷设计下数据结论的可靠性，我对全部四个版本的数据进行了 <strong>Bootstrap 自助法再抽样</strong>分析（n = 1000）。该方法通过模拟重复抽样，计算“偏好分数”与“电影参与度”相关系数的分布，其 <strong>95% 置信区间的宽度直接衡量了估计结果的稳定性</strong>：区间越宽，说明基于单次调查得出的结论越可能因抽样波动而发生改变。</p>
+<p>分析结果揭示了一个反直觉的模式：</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">问卷版本</th>
+          <th style="text-align: left">明确选择者样本量</th>
+          <th style="text-align: left">平均相关系数</th>
+          <th style="text-align: left"><strong>95% 置信区间宽度</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>No neutral options (D)</strong></td>
+          <td style="text-align: left">68</td>
+          <td style="text-align: left">0.573</td>
+          <td style="text-align: left"><strong>0.291</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Only “like neither” (C)</td>
+          <td style="text-align: left">55</td>
+          <td style="text-align: left">0.405</td>
+          <td style="text-align: left">0.388</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Both options (A)</td>
+          <td style="text-align: left">34</td>
+          <td style="text-align: left">0.598</td>
+          <td style="text-align: left">0.396</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Only “like both” (B)</strong></td>
+          <td style="text-align: left">26</td>
+          <td style="text-align: left">0.296</td>
+          <td style="text-align: left"><strong>0.565</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>
+    <img src="../bootstrap_stability_comparison.png" alt="bootstrap_stability_comparison.png"  loading="lazy" /></p>
+<p>与最初“强制选择会引入噪声导致不稳定”的假设相反，<strong>强制选择版本（D 组）的估计结果最为稳定（区间宽度最窄）</strong>。而提供了“都喜欢”选项的B版本，其置信区间宽达 0.565，意味着相关系数可能在 <code>[-0.000, 0.565]</code> 之间波动，显示出极高的不稳定性。</p>
+<p><strong>这一发现促使我们对“稳定性”进行更细致的解读</strong>：强制选择设计通过消除中立选项，迫使所有受访者使用统一的二元尺度作答，这可能在一致性上带来优势，减少了因态度模糊而产生的回答变异。然而，这种“一致性”是以牺牲准确性为代价的——它系统性地模糊了真实存在的群体差异（如第三章所示）。因此，问卷设计面临一个根本的权衡：<strong>是追求更“纯净”、更稳定的测量信号（强制选择），还是追求更丰富、更真实但可能更“嘈杂”的行为刻画（提供中立选项）</strong>。本实验表明，简单提供“都喜欢”选项（B 组）可能在两端皆失，既未能有效揭示潜在偏好，又引入了最大的结论不确定性。</p>
+<h2>05 协变量<span class="hx:absolute hx:-mt-20" id="05-协变量"></span>
+    <a href="#05-%e5%8d%8f%e5%8f%98%e9%87%8f" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>
+    <img src="../demographic_balance.png" alt="demographic_balance.png"  loading="lazy" /></p>
+<p>可能影响核心关系（如偏好选择）的其他测量变量称为<strong>协变量</strong>，主要指收集到的人口学背景信息：年龄和性别。为了剥离这些因素可能造成的混淆，我在统计分析中对其进行了控制。</p>
+<p>协变量的通常处理方法是将其纳入多元统计模型。在分析“问卷版本是否影响电影偏好比例”时，我采用了逻辑回归模型。在这个模型中，<strong>自变量是问卷版本，因变量是是否选择电影，而年龄和性别则作为控制变量（协变量）一并放入模型</strong>。这样，模型所估计出的“版本效应”，便可以理解为<strong>在排除了年龄、性别差异的影响后，问卷设计本身的净影响</strong>。</p>
+<p>结论是：<strong>即使在控制了年龄和性别后，不同问卷版本之间的电影选择比例仍然没有出现统计学上的显著差异</strong>。具体而言，以“Both options”版本为参照，其他版本的效应系数均不显著（p 值均大于 0.05）。这意味着，最初观察到的版本间无差异的结果是稳健的，并非由年龄或性别分布的不均衡所导致。</p>
+<!-- 除了在回归模型中直接纳入，处理协变量的另一种更复杂的方法是**倾向得分匹配**。这种方法通过建模估计每个参与者进入某个问卷版本的“倾向”，然后为不同版本的参与者进行配对，从而在数据分析阶段模拟随机分组，使各版本组在协变量分布上尽可能相似。尽管本研究未直接采用此方法进行匹配分析，但其核心思想与在模型中控制协变量一致，都是为了更纯粹地估计处理效应。 -->
+<h2>06 中立选项的吸积效应<span class="hx:absolute hx:-mt-20" id="06-中立选项的吸积效应"></span>
+    <a href="#06-%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e7%9a%84%e5%90%b8%e7%a7%af%e6%95%88%e5%ba%94" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>中立选项真是重力啊（大雾）。除了稀释关联，中立选项更直接的作用是<strong>改变了人群的分布</strong>。数据显示，“都喜欢”选项就像一个强大的吸引力中心：</p>
+<ul>
+<li>在<strong>A 组</strong>（提供该选项）中，<strong>50%</strong> 的参与者选择了“都喜欢”。</li>
+<li>在<strong>B 版本</strong>（仅提供该选项）中，这一比例更是高达 <strong>64.4%</strong>。</li>
+</ul>
+<p>
+    <img src="../preference_distribution.png" alt="preference_distribution.png"  loading="lazy" /></p>
+<p>这意味着，在一个旨在研究“电影 vs 书籍”偏好与其他特质关联的调查中，如果提供“都喜欢”选项，<strong>超过一半的受访者会从你的核心分析中“消失”或需要被特殊处理</strong>。简单地强制他们二选一，就等于将这部分复杂且可能内部不一致的群体，随机地、带有噪声地分配到了两个阵营中，污染了后续的所有分析。</p>
+<h2>07 强制选择的结果是“真实趋势&quot;还是&quot;统计幻象&quot;？<span class="hx:absolute hx:-mt-20" id="07-强制选择的结果是真实趋势还是统计幻象"></span>
+    <a href="#07-%e5%bc%ba%e5%88%b6%e9%80%89%e6%8b%a9%e7%9a%84%e7%bb%93%e6%9e%9c%e6%98%af%e7%9c%9f%e5%ae%9e%e8%b6%8b%e5%8a%bf%e8%bf%98%e6%98%af%e7%bb%9f%e8%ae%a1%e5%b9%bb%e8%b1%a1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>当两个重力选项都不给时，得到的数据真的反映了某种&quot;总能选出一个更喜欢的&quot;潜在趋势吗？</strong></p>
+<p>那位同学的论点其实隐含着一个假设：即便人们声称&quot;都喜欢&quot;，但在被强迫二选一时，他们内心深处其实存在一个微弱的倾向——一种连自己都未必明确意识到的&quot;更&quot;。这种倾向汇聚起来，就会形成统计上可观测的趋势。</p>
+<p>我的直觉则相反：当人被强迫在不喜欢的选项之间选择时，他们的选择很大程度上是随机的、不稳定的噪声。</p>
+<p>所以我加了一组实验来检验这个观点。</p>
+<h3>模拟实验一：如果 A 组的人被迫二选一，会发生什么？<span class="hx:absolute hx:-mt-20" id="模拟实验一如果-a-组的人被迫二选一会发生什么"></span>
+    <a href="#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%b8%80%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e8%a2%ab%e8%bf%ab%e4%ba%8c%e9%80%89%e4%b8%80%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>要验证这个问题，我设计了一个模拟实验。思路很直接：</p>
+<p><strong>以 A 组（提供全部选项）的数据作为我对人群&quot;真实结构&quot;的最佳估计</strong>。在 A 组中，人群自然分成了三类：明确电影偏好者（24 人）、明确书籍偏好者（10 人）、中立者（38 人，选择了&quot;都喜欢&quot;或&quot;都不喜欢&quot;）。</p>
+<p>接下来，我问自己：如果这 72 个人被迫参加 D 组（强制二选一）的问卷，<strong>根据不同的&quot;决策规则&quot;，他们最终选择电影的比例会是多少</strong>？</p>
+<p>我设想了三种规则，并进行了 10,000 次蒙特卡洛模拟：</p>
+<ol>
+<li><strong>&ldquo;随机噪声&quot;规则</strong>：假设每个中立者抛一枚公平硬币（50% 选电影，50% 选书籍）。这代表最悲观的假设——强制选择只会产生纯粹的噪声。</li>
+<li><strong>&ldquo;行为推断&quot;规则</strong>：利用我已经计算的&quot;电影参与度&rdquo;、&ldquo;书籍参与度&quot;和&quot;偏好分数&rdquo;，训练一个简单的逻辑回归模型。用这个模型来预测：一个具有某种行为特征的中立者，如果必须选，<strong>选电影的概率有多大</strong>？这代表最乐观的假设——人们的行为模式隐含了其潜在的倾向。</li>
+<li><strong>&ldquo;简单启发式&quot;规则</strong>：一个更朴素的假设——中立者中，电影参与度更高的人更可能选电影。</li>
+</ol>
+<p>模拟结果如下图所示：</p>
+<p>
+    <img src="../simulation_comparison.png" alt="simulation_comparison.png"  loading="lazy" /></p>
+<p><strong>结论有些反直觉：</strong></p>
+<ul>
+<li><strong>&ldquo;随机噪声&quot;规则的模拟</strong>，预测的选择电影比例均值为 <strong>59.70%</strong>，其 95% 置信区间为 <strong>[51.39%， 68.06%]</strong>。</li>
+<li><strong>我实际在 D 组中观测到的比例是 64.71%。这个数字，稳稳地落在了&quot;随机噪声&quot;假设的置信区间之内</strong>。</li>
+</ul>
+<p>这意味着什么？从统计上看，<strong>我完全无法区分&quot;强制选择产生了 64.71% 的选电影比例&quot;这一结果，与&quot;中立者完全随机乱选所产生的结果&rdquo;</strong>。实验作者所坚信的&quot;潜在趋势&rdquo;，在数据上与&quot;随机噪声&quot;假设<strong>无法被证伪</strong>。</p>
+<p>有趣的是，&ldquo;行为推断&quot;规则模拟出的比例更高（均值 70.35%），其置信区间（63.89% ~ 76.39%）也包含了实际值。这似乎提供了一个支持&quot;潜在趋势&quot;说的证据。然而，仔细看&quot;行为推断&quot;模型的细节会发现，它之所以预测出这么高的比例，是因为它从 A 组的&quot;明确选择者&quot;身上学到：电影偏好者（偏好分数高）和书籍偏好者（偏好分数低）的行为差异非常极端。当这个模型去预测&quot;中立者&quot;时，它倾向于认为一个行为上不那么极端（偏好分数接近 0）的人，也有较高的概率（平均 70.14%）选择电影。这更像是一个模型外推的<strong>统计假象</strong>，而非发现了中立者内心的&quot;微弱倾向&rdquo;。</p>
+<h3>特征的断裂：混合群体并不&quot;中庸&rdquo;<span class="hx:absolute hx:-mt-20" id="特征的断裂混合群体并不中庸"></span>
+    <a href="#%e7%89%b9%e5%be%81%e7%9a%84%e6%96%ad%e8%a3%82%e6%b7%b7%e5%90%88%e7%be%a4%e4%bd%93%e5%b9%b6%e4%b8%8d%e4%b8%ad%e5%ba%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>如果强制选择真能混合出代表&quot;潜在倾向&quot;的群体，那么这个混合群体的特征，理论上应该介于&quot;纯偏好群体&quot;和&quot;中立群体&quot;之间。</p>
+<p>我用数据检验了这个&quot;中庸&quot;假说，结果如下：</p>
+<p>
+    <img src="../feature_continuity.png" alt="feature_continuity.png"  loading="lazy" /></p>
+<p>以&quot;电影参与度&quot;为例：A 组的&quot;电影组&quot;平均分 2.96，&ldquo;中立组&quot;平均分 2.71，&ldquo;书籍组&rdquo; 1.80。如果 D 组的&quot;电影组&quot;是前两者的混合，其分数应在 2.71~2.96 之间。然而，实际 D 组&quot;电影组&quot;的分数是 3.07，<strong>反而比 A 组的&quot;纯&quot;电影爱好者还要高</strong>。这不符合&quot;混合&quot;的逻辑，更像是在强制选择的压力下，筛选机制发生了某种扭曲。</p>
+<p>类似的断裂也出现在&quot;书籍参与度&quot;上。 D 组的&quot;书籍组&quot;在&quot;偏好分数&quot;上虽然符合&quot;中庸&quot;预期，但在具体行为维度上却出现了&quot;跳跃&rdquo;。<strong>这暗示强制选择塑造的群体，并非简单、平滑地混合了原有群体的特征，其内部构成可能更加复杂和难以解释</strong>。</p>
+<h3>模拟实验二：如果 A 组的人只能看到部分中立选项，会发生什么？<span class="hx:absolute hx:-mt-20" id="模拟实验二如果-a-组的人只能看到部分中立选项会发生什么"></span>
+    <a href="#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%ba%8c%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e5%8f%aa%e8%83%bd%e7%9c%8b%e5%88%b0%e9%83%a8%e5%88%86%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>那位同学的论点其实暗含一个更强的假设：<strong>即便只是部分的中立选项缺失，也会促使人们表露出&quot;内心更真实的偏好&quot;</strong>。顺着这个思路， B 组（只有&quot;都喜欢&quot;）和 C 组（只有&quot;都不喜欢&quot;）就应该能揭示出某种<strong>非随机的趋势</strong>。</p>
+<p>但如果我的&quot;随机噪声&quot;假设成立，那么在这些部分版本中，被迫做选择的人群，其选择模式应该<strong>和纯粹的随机分配没有区别</strong>。是骡子是马，拉出来遛遛。</p>
+<p>思路和之前的模拟类似，但这次更&quot;精细&quot;：</p>
+<p><strong>同样以 A 组（全选项）的数据作为人群&quot;真实结构&quot;的最佳估计</strong>。然后我问自己：</p>
+<ol>
+<li><strong>对于 B 组（只有&quot;都喜欢&quot;）</strong>：如果 A 组的参与者看不到&quot;都不喜欢&quot;选项，那些原本选了&quot;都不喜欢&quot;的人会怎么做？</li>
+<li><strong>对于 C 组（只有&quot;都不喜欢&quot;）</strong>：如果 A 组的参与者看不到&quot;都喜欢&quot;选项，那些原本选了&quot;都喜欢&quot;的人会怎么做？</li>
+</ol>
+<p>我设想了两种决策规则，并对每种情况进行了5,000次蒙特卡洛模拟：</p>
+<ol>
+<li><strong>&ldquo;随机噪声&quot;规则</strong>：假设这部分中立者完全随机地二选一（50% 选电影，50% 选书籍）。</li>
+<li><strong>&ldquo;行为推断&quot;规则</strong>：用 A 组中&quot;明确选择者&rdquo;（选了电影或书籍的人）的数据训练一个逻辑回归模型，根据他们的<code>电影参与度</code>、<code>书籍参与度</code>、<code>偏好分数</code>来预测&quot;如果必须选，选电影的概率有多大&rdquo;，然后用这个模型去预测中立者的选择。</li>
+</ol>
+<h3>结果：随机噪声再次胜利<span class="hx:absolute hx:-mt-20" id="结果随机噪声再次胜利"></span>
+    <a href="#%e7%bb%93%e6%9e%9c%e9%9a%8f%e6%9c%ba%e5%99%aa%e5%a3%b0%e5%86%8d%e6%ac%a1%e8%83%9c%e5%88%a9" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>模拟结果清晰地展示在下图中：</p>
+<p>
+    <img src="../simulation_partial_both.png" alt="simulation_partial_both.png"  loading="lazy" />
+
+    <img src="../simulation_partial_neither.png" alt="simulation_partial_neither.png"  loading="lazy" /></p>
+<p><strong>关键发现：</strong></p>
+<ul>
+<li><strong>B 组（只有&quot;都喜欢&quot;）</strong>：实际观测到的电影选择比例是 <strong>69.23%</strong>。&ldquo;随机噪声&quot;规则模拟出的 95% 置信区间为 <strong>[66.67%， 72.22%]</strong>，稳稳地包含了实际值。</li>
+<li><strong>C 组（只有&quot;都不喜欢&rdquo;）</strong>：实际观测到的电影选择比例是 <strong>63.64%</strong>。&ldquo;随机噪声&quot;规则模拟出的 95% 置信区间为 <strong>[51.43%， 68.57%]</strong>，同样包含了实际值。</li>
+</ul>
+<p>这意味着，从统计上看，<strong>我无法区分B、C两个版本的实际观测结果，与&quot;中立者完全随机乱选&quot;所产生的结果</strong>。</p>
+<p>有趣的是，&ldquo;行为推断&quot;规则在 B 组中反而&quot;翻车&quot;了——它的预测区间没有包含实际值。这很可能是因为模型过度依赖 A 组中&quot;明确选择者&quot;的极端行为模式，当它去预测那些行为更&quot;中庸&quot;的中立者时，产生了有偏差的外推。这反而进一步佐证了<strong>中立者的选择模式与明确偏好者不同</strong>，用后者的规律去预测前者，未必行得通。</p>
+<h3>横向对比：所有版本的选择模式<span class="hx:absolute hx:-mt-20" id="横向对比所有版本的选择模式"></span>
+    <a href="#%e6%a8%aa%e5%90%91%e5%af%b9%e6%af%94%e6%89%80%e6%9c%89%e7%89%88%e6%9c%ac%e7%9a%84%e9%80%89%e6%8b%a9%e6%a8%a1%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>为了获得更全局的视角，我将所有四个版本的几个核心指标放在一起对比：</p>
+<p>
+    <img src="../version_comparison.png" alt="version_comparison.png"  loading="lazy" /></p>
+<p>这张对比图揭示了几件有趣的事：</p>
+<ol>
+<li><strong>&ldquo;都喜欢&quot;是绝对的主流</strong>：在提供该选项的A和 B 组中，分别有 50% 和 64.4% 的人选择了它。相比之下，&ldquo;都不喜欢&quot;的吸引力小得多（在A和 C 组中分别只有 2.8% 和 5.2%）。人们更倾向于表达积极的&quot;都喜欢&rdquo;，而非消极的&quot;都不喜欢&rdquo;。</li>
+<li><strong>电影选择比例相对稳定</strong>：尽管中立选项的设置千差万别，但最终&quot;明确选择者中选择电影的比例&quot;在四个版本间波动并不算剧烈（A: 70.6%, B: 69.2%, C: 63.6%, D: 64.7%）。这或许暗示了人群底层对电影和书籍的相对偏好有一个大致的分布。</li>
+<li><strong>一个模糊的趋势</strong>：如果按照&quot;中立选项越来越少&quot;的顺序（A → B/C → D）来看，电影选择比例似乎有<strong>微弱下降</strong>的趋势。但由于样本量限制，这个趋势非常微弱，且完全在随机波动的范围内，远不能作为&quot;揭示潜在偏好&quot;的证据。</li>
+</ol>
+<h3>样本量告急 <code>: (</code><span class="hx:absolute hx:-mt-20" id="样本量告急--"></span>
+    <a href="#%e6%a0%b7%e6%9c%ac%e9%87%8f%e5%91%8a%e6%80%a5--" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>至此，我可以回答最初的问题了吗？<strong>谨慎地说，在这个实验的范围内，我没有找到证据支持&quot;强制选择能揭示潜在偏好&quot;这一假设</strong>。观察到的结果，与&quot;中立者随机选择&quot;这一零假设在统计上相容。</p>
+<p>更具体地说：</p>
+<ol>
+<li><strong>如果全部删除（D 组）</strong>，结果与&quot;随机噪声&quot;无法区分。</li>
+<li><strong>如果只删除一部分（B 或 C 组）</strong>，结果依然与&quot;随机噪声&quot;无法区分。</li>
+</ol>
+<p>在本次实验的范围内，<strong>我没有找到任何统计证据支持&quot;删除中立选项（无论是全部还是部分）能帮助揭示更深层、更真实的偏好&quot;这一假设</strong>。所有观测到的模式，都可以用&quot;中立者被迫进行近乎随机的选择&quot;来解释。</p>
+<p>这强化了我的核心观点：简单粗暴地删除中立选项，更像是在<strong>用引入随机噪声的方式，来掩盖我们不愿面对的复杂性</strong>，而非找到了什么洞察人心的&quot;魔法钥匙&rdquo;。</p>
+<p><strong>然而，我必须诚实地指出一个根本的局限性：样本量</strong>。我的模拟基于 A 组的 72 个样本，其中只有 38 个中立者。虽然 10,000 次模拟提供了稳定的分布估计，但这个小样本的&quot;基石&quot;本身可能就不够稳固。逻辑回归模型在区区 34 个明确选择者上训练，去预测 38 个中立者，其可靠性存疑。小样本下，置信区间会变宽，任何结论的&quot;分辨率&quot;都不够高。</p>
+<p>因此，这个验证章节仅仅展示了如何利用多版本数据构造&quot;反事实模拟&quot;来检验深层次的假设。它强烈提示我，对&quot;强制选择反映潜在趋势&quot;的说法应持怀疑态度，但我目前的数据，尚不足以在统计上给出斩钉截铁的否定。</p>
+<h2>08 结论与反思<span class="hx:absolute hx:-mt-20" id="08-结论与反思"></span>
+    <a href="#08-%e7%bb%93%e8%ae%ba%e4%b8%8e%e5%8f%8d%e6%80%9d" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>本次实验通过四个平行问卷版本的对比分析，探讨了中立选项对数据质量的影响。核心结论如下：</p>
+<ol>
+<li><strong>强制选择会扭曲群体特征</strong>：在必须二选一（D 组）的条件下，“电影组”与“书籍组”在电影参与度等行为指标上的差异显著缩小。这表明，强制中立者做出的选择会作为噪声混入数据，<strong>削弱了研究者可观测的真实群体间差异信号</strong>。</li>
+<li><strong>强制选择的数据最具一致性</strong>：Bootstrap 稳定性分析得出了一个关键且反直觉的发现——强制选择版本（D 组）得出的相关性估计<strong>置信区间最窄（0.291），统计一致性最高</strong>。这揭示了问卷设计中的一个深刻权衡：强制选择以牺牲<strong>测量效度</strong>（无法反映真实、连续的偏好光谱）为代价，换取了更高的<strong>测量信度</strong>（迫使所有人在同一把二元标尺上作答，减少了回答变异）。</li>
+<li><strong>“都喜欢”选项影响巨大且复杂</strong>：该选项在提供时吸引了超半数参与者（A 组 50%，B 组 64.4%）。简单删除它会扭曲样本构成，但保留它也可能引发问题。提供“都喜欢”作为<strong>唯一中立选项</strong>的B版本，其数据稳定性最差（置信区间宽度达 0.565），表明这一设计可能诱发了最大的回答不确定性。</li>
+<li><strong>未发现强制选择能揭示潜在偏好</strong>：蒙特卡洛模拟显示，将A版本的中立者依据不同规则强制分配后，其预测结果与实际观测到的D版本选择比例无显著差异。<strong>本实验未找到统计证据支持“强制选择能反映更深层潜在偏好”的说法</strong>。</li>
+</ol>
+<h3>对问卷设计的启示：“单一中立选项”情境的延伸讨论<span class="hx:absolute hx:-mt-20" id="对问卷设计的启示单一中立选项情境的延伸讨论"></span>
+    <a href="#%e5%af%b9%e9%97%ae%e5%8d%b7%e8%ae%be%e8%ae%a1%e7%9a%84%e5%90%af%e7%a4%ba%e5%8d%95%e4%b8%80%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e6%83%85%e5%a2%83%e7%9a%84%e5%bb%b6%e4%bc%b8%e8%ae%a8%e8%ae%ba" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>本研究的设计恰好对“仅添加一个中立选项”的常见做法提供了深刻洞察。由于调查主题（电影 vs. 书籍偏好）的特性，“都不喜欢”是少数派，而“都喜欢”是主流中立态度。这导致：</p>
+<ul>
+<li><strong>C组（仅“都不喜欢”）</strong> 在结构上趋近于D组（强制选择），因为只有极少数人选择该选项，大部分参与者仍需在“电影”和“书籍”中做明确选择，因此其数据稳定性也较好。</li>
+<li><strong>B组（仅“都喜欢”）</strong> 则与A组（全选项）相似，因为主流中立群体被“都喜欢”选项有效吸纳。</li>
+</ul>
+<p>正是这种结构相似性使我们发现：<strong>当“都喜欢”作为唯一的中立选项时，它虽然吸纳了大量态度模糊的参与者，但并未成功地将他们转化为高质量的数据点。<strong>相反，它创造了一个“模糊的中间地带”，使得剩余“明确选择者”群体的行为模式变得不一致，最终导致统计估计的剧烈波动（B 组最不稳定）。这警示我们，在设计类似主题（如测量偏好、满意度，其中立态度多为积极/双向的“都喜欢”）的问卷时，简单地添加一个看似友好的“都喜欢”选项，可能是一种</strong>懒惰且危险</strong>的简化。它既无法像强制选择那样提供一致的测量标尺，也无法像提供完整选项那样揭示态度的真实分布。</p>
+<p><strong>因此，更好的做法是主动管理而非回避复杂性</strong>。研究者应根据理论需要，选择以下路径之一：</p>
+<ul>
+<li><strong>完整映射</strong>：提供“都喜欢”与“都不喜欢”选项，将中立者作为一个<strong>独立的分析类别</strong>，研究其独特特征，而非强行将其归入偏好阵营。</li>
+<li><strong>连续测量</strong>：放弃非此即彼的分类，采用<strong>李克特量表或滑动条</strong>直接测量对两个对象的喜爱程度，将连续得分之差作为偏好强度指标。</li>
+<li><strong>明确决策</strong>：如果研究问题必须要求一个决定（如产品A/B测试），则可采用强制选择，但必须清醒认识到其结论在“群体差异”层面效度有限，并应辅以其他测量方式交叉验证。</li>
+</ul>
+<p>最终，问卷设计没有“一刀切”的完美方案。本研究揭示了不同设计在<strong>效度</strong>（揭示真相）、<strong>信度</strong>（稳定一致）和<strong>信息丰富度</strong>之间的内在权衡。明智的设计始于对研究目标的审慎思考，以及对“简单化”背后所隐藏的数据代价的充分认知。</p>
+        </div><div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+        href="/personal-blog/blog/paper-reading_negative-verbal-probabilities-undermine-communication-of-climate-science/"
+        title="Paper-reading: Negative Verbal Probabilities Undermine Communication of Climate Science"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Paper-reading: Negative Verbal Probabilities Undermine Communication of Climate Science</a><a
+        href="/personal-blog/blog/chemistry_review_chapter_1/"
+        title="无机化学 复习 第一章"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
+      >无机化学 复习 第一章<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div></main>
+    </article>
+  </div>
+
+      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div class="hx:mx-auto hx:flex hx:gap-2 hx:py-2 hx:px-4 hextra-max-footer-width"><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="Change theme"
+    data-state="closed"
+    data-location="bottom"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="Change theme"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">Light</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">Dark</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">System</span></div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-md hx:ring-1 hx:ring-black/5 hx:bg-white hx:py-1 hx:text-sm hx:shadow-lg hx:dark:ring-white/20 hx:dark:bg-neutral-800"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+  >
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="light"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        Light
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="dark"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        Dark
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+    <li class="hx:flex hx:flex-col">
+      <p
+        data-item="system"
+        class="hx:text-gray-800 hx:dark:text-gray-100 hx:hover:bg-primary-50 hx:hover:text-primary-600 hx:hover:dark:bg-primary-500/10 hx:hover:dark:text-primary-600 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+      >
+        System
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </p>
+    </li>
+  </ul>
+</div></div><hr class="hx:border-gray-200 hx:dark:border-neutral-800" /><div class="hextra-custom-footer hextra-max-footer-width hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"></div><div
+      class="hextra-max-footer-width hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start"
+    >
+      <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start"><div class="hx:font-semibold"><a class="hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
+    <span>Powered by Hextra<svg height=1em class="hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px]" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" /></svg></span>
+  </a></div></div>
+    </div></footer>
+    
+    <script defer src="/personal-blog/js/main.min.620a80275af846f27933b2a0d447679fd8e5892d97aebde15d6669e36460b404.js" integrity="sha256-YgqAJ1r4RvJ5M7Kg1Ednn9jliS2Xrr3hXWZp42RgtAQ="></script>
+<script defer src="/personal-blog/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script>
+        <script defer src="/personal-blog/en.search.min.4914ea8f77ccbf060484ec30782d93d2cd09a09129fb3383075b418be1905941.js" integrity="sha256-SRTqj3fMvwYEhOwweC2T0s0JoJEp&#43;zODB1tBi&#43;GQWUE="></script>
+  </body>
+</html>

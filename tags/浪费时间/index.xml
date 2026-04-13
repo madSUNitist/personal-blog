@@ -1,0 +1,296 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>madSUNitist – 浪费时间</title>
+    <link>https://madsunitist.github.io/personal-blog/tags/%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4/</link>
+    <description>Recent content in 浪费时间 on madSUNitist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 06 Dec 2025 11:54:02 +0800</lastBuildDate>
+    
+	  <atom:link href="https://madsunitist.github.io/personal-blog/tags/%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>问卷调查中的中立选项是否可能影响数据分布？</title>
+      <link>https://madsunitist.github.io/personal-blog/blog/%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E4%B8%AD%E7%9A%84%E4%B8%AD%E7%AB%8B%E9%80%89%E9%A1%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83/</link>
+      <pubDate>Sat, 06 Dec 2025 11:54:02 +0800</pubDate>
+      
+      <guid>https://madsunitist.github.io/personal-blog/blog/%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E4%B8%AD%E7%9A%84%E4%B8%AD%E7%AB%8B%E9%80%89%E9%A1%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83/</guid>
+      <description>
+        
+        
+        &lt;p&gt;今天在朋友圈看到同学小组作业的调查问卷，内容是研究 MBTI 和喜欢猫/狗之间的联系。点进去发现居然没有“两者都喜欢”的选项，这让我这种既爱猫又爱狗的人士怎么办🤣。不过这引出了一个问题：&lt;strong&gt;问卷调查中的中立选项是否可能影响数据分布？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;询问作者“既喜欢猫又喜欢狗的人应该选什么选项”之后，作者说：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;为了避免大家都选都喜欢，我特地删了这个选项，所以只能选出更喜欢的&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;但是直觉告诉我，这样的话，都喜欢的人会以噪声的形式落入统计数据，进而造成数据污染。关键在于，一个人两者都喜欢的的人不一定能保证今天和明天“硬选”出来的选项是相同的，这在研究关联性的统计中不一定站得住脚。&lt;/p&gt;
+&lt;p&gt;但是转念又想，万一这种“更”的趋势真的能反映在数据中呢？毕竟没有确凿的证据证明我的直觉是对的。于是我设计了以下实验（当然，由于资源和时间限制，我没有设置完整的对照试验，不然我需要用完 8 个问卷星账号的问卷互填的点数，我才不干🤣）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;声明：纯做着玩，没有对照组，资源有限，结论不严谨，已经有相关研究，浪费时间&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;01 实验设计&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;01-实验设计&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#01-%e5%ae%9e%e9%aa%8c%e8%ae%be%e8%ae%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;理想的实验需要同一批人在不同条件下重复作答，但我摆了对照组😋。我的替代方案是设计&lt;strong&gt;四个平行版本&lt;/strong&gt;的问卷，每个版本在中立选项的设置上有所不同，构成一个类实验设计：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;版本 A（对照组蓝图）&lt;/strong&gt;：同时提供“&lt;strong&gt;都喜欢&lt;/strong&gt;”和“&lt;strong&gt;都不喜欢&lt;/strong&gt;”选项。这是我探究真实分布的理想参照。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本 B（只有“都喜欢”）&lt;/strong&gt;：仅提供“&lt;strong&gt;都喜欢&lt;/strong&gt;”选项，不提供“都不喜欢”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本 C（只有“都不喜欢”）&lt;/strong&gt;：仅提供“&lt;strong&gt;都不喜欢&lt;/strong&gt;”选项，不提供“都喜欢”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本 D（强制选择）&lt;/strong&gt;：两个中立选项都&lt;strong&gt;不提供&lt;/strong&gt;，参与者必须在电影和书籍中强制二选一。这模拟了我同学问卷的设计。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有版本都包含相同的背景问题，用于测量参与者在电影和书籍上的真实参与度、身份认同和行为倾向，例如“过去一个月您看电影的频率”、“您认为自己是影迷吗？”等。&lt;/p&gt;
+&lt;p&gt;这样，版本 A 揭示了人群的真实构成（有多少明确偏好者，有多少中立者），而其他版本则像施加了不同的“滤镜”，让我观察强制选择或部分选择如何改变数据的模样。关键在于，&lt;strong&gt;如果中立选项无关紧要，那么四个版本中，那些“明确选择了电影或书籍”的群体，他们的行为特征应该是相似的&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;02 数据预处理&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-数据预处理&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#02-%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;通过互填问卷渠道收集数据，不可避免地会混入一些无效作答。为了确保分析质量，我首先剔除了所有&lt;strong&gt;作答时间短于 15 秒&lt;/strong&gt;的记录，这类记录极可能是随意点击的结果。&lt;/p&gt;
+&lt;p&gt;经过努力，我拿到了 417 份样本。清理后（也就是剔除作答时间 &amp;lt; 15s 的样本后），我得到了 &lt;strong&gt;271 份有效样本&lt;/strong&gt;，在各版本间分布相对均衡。&lt;/p&gt;
+&lt;p&gt;在分析之前，我面临一个根本的翻译问题：如何将“几乎每天”、“是”、“立即观看”这些分类选项，转化为可以进行数学比较和关联分析的&lt;strong&gt;行为强度分数&lt;/strong&gt;？&lt;/p&gt;
+&lt;p&gt;这不是一个中立的转换。每一个数字的赋予，都隐含了我对于“什么是更强的参与”的价值判断。整个过程，更像是在数据的语法规则下，进行一次谨慎的编码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;首先，是统一方向&lt;/strong&gt;。频率题中，1 代表“几乎每天”，5 代表“几乎没有”。我希望一个表示“高参与度”的变量，其&lt;strong&gt;数值也应该更高&lt;/strong&gt;。所以，第一项操作是线性反转：
+&lt;/p&gt;
+&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mtable rowspacing=&#34;0.25em&#34; columnalign=&#34;right left&#34; columnspacing=&#34;0em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mtext&gt;电影参与度&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt;电影频率原始值&lt;/mtext&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mtext&gt;书籍参与度&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt;书籍频率原始值&lt;/mtext&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt; \begin{aligned} 
+  \text{电影参与度} &amp;amp;= 6 - \text{电影频率原始值} \\
+  \text{书籍参与度} &amp;amp;= 6 - \text{书籍频率原始值}
+\end{aligned} &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:3em;vertical-align:-1.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;col-align-r&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.75em;&#34;&gt;&lt;span style=&#34;top:-3.91em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;电影参与度&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.41em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;书籍参与度&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.25em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.75em;&#34;&gt;&lt;span style=&#34;top:-3.91em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;电影频率原始值&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.41em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;书籍频率原始值&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.25em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;p&gt;&lt;strong&gt;其次，是整合维度&lt;/strong&gt;。仅有频率不够。一个人自称“影迷”（身份认同），或者有新片必看（行为积极性），都是更强烈的信号。因此，我将身份题（是/否）转换为 1 和 0，将行为题（立即观看、稍后看、不关注）也反转编码为 3、2、1 分。&lt;/p&gt;
+&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mtable rowspacing=&#34;0.25em&#34; columnalign=&#34;right left&#34; columnspacing=&#34;0em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mtext&gt;身份&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;{&lt;/mo&gt;&lt;mtable rowspacing=&#34;0.36em&#34; columnalign=&#34;left left&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mtext&gt;if “是&amp;quot;&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mtext&gt;if “否&amp;quot;&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mtext&gt;行为积极性&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;{&lt;/mo&gt;&lt;mtable rowspacing=&#34;0.36em&#34; columnalign=&#34;left left&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mtext&gt;if “立即观看&amp;quot;&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mtext&gt;if “稍后看&amp;quot;&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mtext&gt;if “不关注&amp;quot;&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt; \begin{aligned}
+  \text{身份} &amp;amp;= \begin{cases}
+    1 &amp;amp; \text{if ``是&amp;quot;} \\
+    0 &amp;amp; \text{if ``否&amp;quot;}
+  \end{cases} \\
+  \text{行为积极性} &amp;amp;= \begin{cases}  
+    3 &amp;amp; \text{if ``立即观看&amp;quot;} \\
+    2 &amp;amp; \text{if ``稍后看&amp;quot;} \\
+    1 &amp;amp; \text{if ``不关注&amp;quot;}
+  \end{cases}
+\end{aligned} &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:7.92em;vertical-align:-3.71em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;col-align-r&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:4.21em;&#34;&gt;&lt;span style=&#34;top:-6.87em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:4.41em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;身份&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.91em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:4.41em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;行为积极性&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.71em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:4.21em;&#34;&gt;&lt;span style=&#34;top:-6.87em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:4.41em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size4&#34;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.69em;&#34;&gt;&lt;span style=&#34;top:-3.69em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.25em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.19em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.69em;&#34;&gt;&lt;span style=&#34;top:-3.69em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord&#34;&gt;if “&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;是&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.25em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord&#34;&gt;if “&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;否&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.19em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.91em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:4.41em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen&#34;&gt;&lt;span class=&#34;delimsizing mult&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.35em;&#34;&gt;&lt;span style=&#34;top:-2.2em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;delimsizinginner delim-size4&#34;&gt;&lt;span&gt;⎩&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.192em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.15em;&#34;&gt;&lt;/span&gt;&lt;span style=&#34;height:0.316em;width:0.8889em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;0.8889em&#34; height=&#34;0.316em&#34; style=&#34;width:0.8889em&#34; viewBox=&#34;0 0 888.89 316&#34; preserveAspectRatio=&#34;xMinYMin&#34;&gt;&lt;path d=&#34;M384 0 H504 V316 H384z M384 0 H504 V316 H384z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.15em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;delimsizinginner delim-size4&#34;&gt;&lt;span&gt;⎨&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-4.292em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.15em;&#34;&gt;&lt;/span&gt;&lt;span style=&#34;height:0.316em;width:0.8889em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;0.8889em&#34; height=&#34;0.316em&#34; style=&#34;width:0.8889em&#34; viewBox=&#34;0 0 888.89 316&#34; preserveAspectRatio=&#34;xMinYMin&#34;&gt;&lt;path d=&#34;M384 0 H504 V316 H384z M384 0 H504 V316 H384z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-4.6em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;delimsizinginner delim-size4&#34;&gt;&lt;span&gt;⎧&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.85em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.41em;&#34;&gt;&lt;span style=&#34;top:-4.41em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.97em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.53em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.91em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.41em;&#34;&gt;&lt;span style=&#34;top:-4.41em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord&#34;&gt;if “&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;立即观看&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.97em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord&#34;&gt;if “&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;稍后看&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.53em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.008em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord&#34;&gt;if “&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;不关注&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.91em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.71em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;p&gt;但是，一个自称影迷（身份 = 1）但看得不多（参与度 = 2）的人，整体上到底有多“电影偏好”？我需要一个单一的综合指标。&lt;/p&gt;
+&lt;p&gt;于是，我构建了“&lt;strong&gt;偏好分数&lt;/strong&gt;”，其核心思想是计算电影侧与书籍侧在所有维度上的加权差值：&lt;/p&gt;
+&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mtable rowspacing=&#34;0.25em&#34; columnalign=&#34;right left&#34; columnspacing=&#34;0em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mtext&gt;偏好分数&lt;/mtext&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mtext&gt;电影参与度&lt;/mtext&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt;书籍参与度&lt;/mtext&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;+&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mfrac&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mtext&gt;影迷身份&lt;/mtext&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt;书迷身份&lt;/mtext&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;+&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;true&#34;&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mtext&gt;电影行为积极性&lt;/mtext&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt;书籍行为积极性&lt;/mtext&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt; \begin{aligned}
+  \text{偏好分数} = &amp;amp;\frac{1}{3}(\text{电影参与度} - \text{书籍参与度}) \\
+                 + &amp;amp;\frac{2}{3}(\text{影迷身份} - \text{书迷身份}) \\ 
+                 + &amp;amp;\frac{1}{3}(\text{电影行为积极性} - \text{书籍行为积极性})
+\end{aligned} &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:6.9223em;vertical-align:-3.2112em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;col-align-r&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.7112em;&#34;&gt;&lt;span style=&#34;top:-5.7112em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;偏好分数&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.4037em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.0963em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.2112em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.7112em;&#34;&gt;&lt;span style=&#34;top:-5.7112em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3214em;&#34;&gt;&lt;span style=&#34;top:-2.314em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.677em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.686em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;电影参与度&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;书籍参与度&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.4037em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3214em;&#34;&gt;&lt;span style=&#34;top:-2.314em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.677em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.686em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;影迷身份&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;书迷身份&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.0963em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.3214em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3214em;&#34;&gt;&lt;span style=&#34;top:-2.314em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.677em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.686em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;电影行为积极性&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;书籍行为积极性&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:3.2112em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;p&gt;&lt;strong&gt;这个公式是理解后续所有分析的关键&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;结果为正&lt;/strong&gt;：综合行为偏向电影。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果为负&lt;/strong&gt;：综合行为偏向书籍。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果接近零&lt;/strong&gt;：行为上是个“中立派”，两种活动参与度相当。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;为何身份权重是2？&lt;/strong&gt; 这是一个基于行为科学直觉的假设：宣称自己是“影迷”或“书迷”，是一种更强的认知承诺和社会标签，它可能比一时的行为频率更能稳定地反映核心偏好。这个“2”是一个经过推敲的假设值，它强调了身份认同的突出性，但又未过分到完全主宰整个分数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至此，我完成了从&lt;strong&gt;离散选项&lt;/strong&gt;到&lt;strong&gt;连续谱系&lt;/strong&gt;的映射。这个分数，便是后续所有关联分析的基石。当我比较不同问卷版本中“电影组”和“书籍组”的差异时，我比较的正是他们在这个&lt;strong&gt;综合行为谱系&lt;/strong&gt;上的平均位置之差。&lt;/p&gt;
+&lt;h2&gt;03 关联信号减弱&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;03-关联信号减弱&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#03-%e5%85%b3%e8%81%94%e4%bf%a1%e5%8f%b7%e5%87%8f%e5%bc%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;实验的核心假设是：&lt;strong&gt;强制选择会引入噪声，从而稀释或扭曲“偏好”与“其他行为特征”之间本应存在的关联&lt;/strong&gt;。简单说，就是模糊了电影爱好者和书籍爱好者之间的真实差异。&lt;/p&gt;
+&lt;p&gt;为了检验这一点，我分别计算了每个版本中，“电影组”和“书籍组”在多项行为指标上的平均得分。如果我的假设成立，我会看到一个清晰的模式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在允许表达中立的版本（A、B）中&lt;/strong&gt;，“硬选”出来的电影组和书籍组，其行为差异应该&lt;strong&gt;更鲜明&lt;/strong&gt;。因为大量中立者已被分流，剩下的多是“纯度”较高的偏好者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在强制选择的版本（D）中&lt;/strong&gt;，两组的行为差异应该&lt;strong&gt;被冲淡、更模糊&lt;/strong&gt;。因为每组都混入了被迫站队的“中立者”，他们拉平了组间的特征差异。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;数据完美地印证了这个模式。让我以“电影参与度”这个核心指标为例：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;问卷版本&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;电影组的平均参与度&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;书籍组的平均参与度&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;组间差异&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;A（全选项）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2.96&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1.80&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;+1.16&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;B（仅“都喜欢”）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.89&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;+0.76&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;C（仅“都不喜欢”）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;+0.01&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;D（强制选择）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;3.07&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2.42&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;+0.65&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../association_strength_comparison.png&#34; alt=&#34;association_strength_comparison.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这张表格揭示了一个有趣的故事。在提供“都喜欢”选项的 A 组中，电影爱好者与书籍爱好者在电影参与度上差异最大（1.16 分）。而在强迫所有人站队的 D 版本中，这个差异缩小了近一半（0.65 分）。&lt;strong&gt;这直观地说明，强制选择就像在清晰的信号里加入了噪声，让原本 distinct 的群体特征变得模糊&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;最极端的是 C 版本（仅有“都不喜欢”选项），组间差异几乎为零（0.01 分）。这可能是因为“都不喜欢”是一个强烈且少见的表态，选择它的人和明确选择电影/书籍的人，在某些行为上可能本身就比较接近，或者样本量问题导致了不稳定结果。&lt;/p&gt;
+&lt;p&gt;统计检验进一步支持了这一发现。我建立了一个回归模型，检验“问卷版本”是否会调节“偏好”对“电影参与度”的影响。&lt;strong&gt;模型中的交互项显著（p &amp;lt; 0.05）&lt;/strong&gt;，这从统计上证实了：&lt;strong&gt;“偏好”与“行为”之间的关系强度，确实因问卷格式的不同而发生了改变&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;04 稳定性分析&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;04-稳定性分析&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#04-%e7%a8%b3%e5%ae%9a%e6%80%a7%e5%88%86%e6%9e%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;为评估不同问卷设计下数据结论的可靠性，我对全部四个版本的数据进行了 &lt;strong&gt;Bootstrap 自助法再抽样&lt;/strong&gt;分析（n = 1000）。该方法通过模拟重复抽样，计算“偏好分数”与“电影参与度”相关系数的分布，其 &lt;strong&gt;95% 置信区间的宽度直接衡量了估计结果的稳定性&lt;/strong&gt;：区间越宽，说明基于单次调查得出的结论越可能因抽样波动而发生改变。&lt;/p&gt;
+&lt;p&gt;分析结果揭示了一个反直觉的模式：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;问卷版本&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;明确选择者样本量&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;平均相关系数&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;95% 置信区间宽度&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;No neutral options (D)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;68&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.573&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;0.291&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Only “like neither” (C)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;55&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.405&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.388&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Both options (A)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;34&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.598&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.396&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Only “like both” (B)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.296&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;0.565&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../bootstrap_stability_comparison.png&#34; alt=&#34;bootstrap_stability_comparison.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;与最初“强制选择会引入噪声导致不稳定”的假设相反，&lt;strong&gt;强制选择版本（D 组）的估计结果最为稳定（区间宽度最窄）&lt;/strong&gt;。而提供了“都喜欢”选项的B版本，其置信区间宽达 0.565，意味着相关系数可能在 &lt;code&gt;[-0.000, 0.565]&lt;/code&gt; 之间波动，显示出极高的不稳定性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这一发现促使我们对“稳定性”进行更细致的解读&lt;/strong&gt;：强制选择设计通过消除中立选项，迫使所有受访者使用统一的二元尺度作答，这可能在一致性上带来优势，减少了因态度模糊而产生的回答变异。然而，这种“一致性”是以牺牲准确性为代价的——它系统性地模糊了真实存在的群体差异（如第三章所示）。因此，问卷设计面临一个根本的权衡：&lt;strong&gt;是追求更“纯净”、更稳定的测量信号（强制选择），还是追求更丰富、更真实但可能更“嘈杂”的行为刻画（提供中立选项）&lt;/strong&gt;。本实验表明，简单提供“都喜欢”选项（B 组）可能在两端皆失，既未能有效揭示潜在偏好，又引入了最大的结论不确定性。&lt;/p&gt;
+&lt;h2&gt;05 协变量&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;05-协变量&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#05-%e5%8d%8f%e5%8f%98%e9%87%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;
+    &lt;img src=&#34;../demographic_balance.png&#34; alt=&#34;demographic_balance.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可能影响核心关系（如偏好选择）的其他测量变量称为&lt;strong&gt;协变量&lt;/strong&gt;，主要指收集到的人口学背景信息：年龄和性别。为了剥离这些因素可能造成的混淆，我在统计分析中对其进行了控制。&lt;/p&gt;
+&lt;p&gt;协变量的通常处理方法是将其纳入多元统计模型。在分析“问卷版本是否影响电影偏好比例”时，我采用了逻辑回归模型。在这个模型中，&lt;strong&gt;自变量是问卷版本，因变量是是否选择电影，而年龄和性别则作为控制变量（协变量）一并放入模型&lt;/strong&gt;。这样，模型所估计出的“版本效应”，便可以理解为&lt;strong&gt;在排除了年龄、性别差异的影响后，问卷设计本身的净影响&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;结论是：&lt;strong&gt;即使在控制了年龄和性别后，不同问卷版本之间的电影选择比例仍然没有出现统计学上的显著差异&lt;/strong&gt;。具体而言，以“Both options”版本为参照，其他版本的效应系数均不显著（p 值均大于 0.05）。这意味着，最初观察到的版本间无差异的结果是稳健的，并非由年龄或性别分布的不均衡所导致。&lt;/p&gt;
+&lt;!-- 除了在回归模型中直接纳入，处理协变量的另一种更复杂的方法是**倾向得分匹配**。这种方法通过建模估计每个参与者进入某个问卷版本的“倾向”，然后为不同版本的参与者进行配对，从而在数据分析阶段模拟随机分组，使各版本组在协变量分布上尽可能相似。尽管本研究未直接采用此方法进行匹配分析，但其核心思想与在模型中控制协变量一致，都是为了更纯粹地估计处理效应。 --&gt;
+&lt;h2&gt;06 中立选项的吸积效应&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;06-中立选项的吸积效应&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#06-%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e7%9a%84%e5%90%b8%e7%a7%af%e6%95%88%e5%ba%94&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;中立选项真是重力啊（大雾）。除了稀释关联，中立选项更直接的作用是&lt;strong&gt;改变了人群的分布&lt;/strong&gt;。数据显示，“都喜欢”选项就像一个强大的吸引力中心：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在&lt;strong&gt;A 组&lt;/strong&gt;（提供该选项）中，&lt;strong&gt;50%&lt;/strong&gt; 的参与者选择了“都喜欢”。&lt;/li&gt;
+&lt;li&gt;在&lt;strong&gt;B 版本&lt;/strong&gt;（仅提供该选项）中，这一比例更是高达 &lt;strong&gt;64.4%&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../preference_distribution.png&#34; alt=&#34;preference_distribution.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这意味着，在一个旨在研究“电影 vs 书籍”偏好与其他特质关联的调查中，如果提供“都喜欢”选项，&lt;strong&gt;超过一半的受访者会从你的核心分析中“消失”或需要被特殊处理&lt;/strong&gt;。简单地强制他们二选一，就等于将这部分复杂且可能内部不一致的群体，随机地、带有噪声地分配到了两个阵营中，污染了后续的所有分析。&lt;/p&gt;
+&lt;h2&gt;07 强制选择的结果是“真实趋势&amp;quot;还是&amp;quot;统计幻象&amp;quot;？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;07-强制选择的结果是真实趋势还是统计幻象&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#07-%e5%bc%ba%e5%88%b6%e9%80%89%e6%8b%a9%e7%9a%84%e7%bb%93%e6%9e%9c%e6%98%af%e7%9c%9f%e5%ae%9e%e8%b6%8b%e5%8a%bf%e8%bf%98%e6%98%af%e7%bb%9f%e8%ae%a1%e5%b9%bb%e8%b1%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;当两个重力选项都不给时，得到的数据真的反映了某种&amp;quot;总能选出一个更喜欢的&amp;quot;潜在趋势吗？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;那位同学的论点其实隐含着一个假设：即便人们声称&amp;quot;都喜欢&amp;quot;，但在被强迫二选一时，他们内心深处其实存在一个微弱的倾向——一种连自己都未必明确意识到的&amp;quot;更&amp;quot;。这种倾向汇聚起来，就会形成统计上可观测的趋势。&lt;/p&gt;
+&lt;p&gt;我的直觉则相反：当人被强迫在不喜欢的选项之间选择时，他们的选择很大程度上是随机的、不稳定的噪声。&lt;/p&gt;
+&lt;p&gt;所以我加了一组实验来检验这个观点。&lt;/p&gt;
+&lt;h3&gt;模拟实验一：如果 A 组的人被迫二选一，会发生什么？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;模拟实验一如果-a-组的人被迫二选一会发生什么&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%b8%80%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e8%a2%ab%e8%bf%ab%e4%ba%8c%e9%80%89%e4%b8%80%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;要验证这个问题，我设计了一个模拟实验。思路很直接：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以 A 组（提供全部选项）的数据作为我对人群&amp;quot;真实结构&amp;quot;的最佳估计&lt;/strong&gt;。在 A 组中，人群自然分成了三类：明确电影偏好者（24 人）、明确书籍偏好者（10 人）、中立者（38 人，选择了&amp;quot;都喜欢&amp;quot;或&amp;quot;都不喜欢&amp;quot;）。&lt;/p&gt;
+&lt;p&gt;接下来，我问自己：如果这 72 个人被迫参加 D 组（强制二选一）的问卷，&lt;strong&gt;根据不同的&amp;quot;决策规则&amp;quot;，他们最终选择电影的比例会是多少&lt;/strong&gt;？&lt;/p&gt;
+&lt;p&gt;我设想了三种规则，并进行了 10,000 次蒙特卡洛模拟：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;随机噪声&amp;quot;规则&lt;/strong&gt;：假设每个中立者抛一枚公平硬币（50% 选电影，50% 选书籍）。这代表最悲观的假设——强制选择只会产生纯粹的噪声。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;行为推断&amp;quot;规则&lt;/strong&gt;：利用我已经计算的&amp;quot;电影参与度&amp;rdquo;、&amp;ldquo;书籍参与度&amp;quot;和&amp;quot;偏好分数&amp;rdquo;，训练一个简单的逻辑回归模型。用这个模型来预测：一个具有某种行为特征的中立者，如果必须选，&lt;strong&gt;选电影的概率有多大&lt;/strong&gt;？这代表最乐观的假设——人们的行为模式隐含了其潜在的倾向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;简单启发式&amp;quot;规则&lt;/strong&gt;：一个更朴素的假设——中立者中，电影参与度更高的人更可能选电影。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;模拟结果如下图所示：&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../simulation_comparison.png&#34; alt=&#34;simulation_comparison.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结论有些反直觉：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;随机噪声&amp;quot;规则的模拟&lt;/strong&gt;，预测的选择电影比例均值为 &lt;strong&gt;59.70%&lt;/strong&gt;，其 95% 置信区间为 &lt;strong&gt;[51.39%， 68.06%]&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;我实际在 D 组中观测到的比例是 64.71%。这个数字，稳稳地落在了&amp;quot;随机噪声&amp;quot;假设的置信区间之内&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着什么？从统计上看，&lt;strong&gt;我完全无法区分&amp;quot;强制选择产生了 64.71% 的选电影比例&amp;quot;这一结果，与&amp;quot;中立者完全随机乱选所产生的结果&amp;rdquo;&lt;/strong&gt;。实验作者所坚信的&amp;quot;潜在趋势&amp;rdquo;，在数据上与&amp;quot;随机噪声&amp;quot;假设&lt;strong&gt;无法被证伪&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;有趣的是，&amp;ldquo;行为推断&amp;quot;规则模拟出的比例更高（均值 70.35%），其置信区间（63.89% ~ 76.39%）也包含了实际值。这似乎提供了一个支持&amp;quot;潜在趋势&amp;quot;说的证据。然而，仔细看&amp;quot;行为推断&amp;quot;模型的细节会发现，它之所以预测出这么高的比例，是因为它从 A 组的&amp;quot;明确选择者&amp;quot;身上学到：电影偏好者（偏好分数高）和书籍偏好者（偏好分数低）的行为差异非常极端。当这个模型去预测&amp;quot;中立者&amp;quot;时，它倾向于认为一个行为上不那么极端（偏好分数接近 0）的人，也有较高的概率（平均 70.14%）选择电影。这更像是一个模型外推的&lt;strong&gt;统计假象&lt;/strong&gt;，而非发现了中立者内心的&amp;quot;微弱倾向&amp;rdquo;。&lt;/p&gt;
+&lt;h3&gt;特征的断裂：混合群体并不&amp;quot;中庸&amp;rdquo;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;特征的断裂混合群体并不中庸&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%89%b9%e5%be%81%e7%9a%84%e6%96%ad%e8%a3%82%e6%b7%b7%e5%90%88%e7%be%a4%e4%bd%93%e5%b9%b6%e4%b8%8d%e4%b8%ad%e5%ba%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果强制选择真能混合出代表&amp;quot;潜在倾向&amp;quot;的群体，那么这个混合群体的特征，理论上应该介于&amp;quot;纯偏好群体&amp;quot;和&amp;quot;中立群体&amp;quot;之间。&lt;/p&gt;
+&lt;p&gt;我用数据检验了这个&amp;quot;中庸&amp;quot;假说，结果如下：&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../feature_continuity.png&#34; alt=&#34;feature_continuity.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;以&amp;quot;电影参与度&amp;quot;为例：A 组的&amp;quot;电影组&amp;quot;平均分 2.96，&amp;ldquo;中立组&amp;quot;平均分 2.71，&amp;ldquo;书籍组&amp;rdquo; 1.80。如果 D 组的&amp;quot;电影组&amp;quot;是前两者的混合，其分数应在 2.71~2.96 之间。然而，实际 D 组&amp;quot;电影组&amp;quot;的分数是 3.07，&lt;strong&gt;反而比 A 组的&amp;quot;纯&amp;quot;电影爱好者还要高&lt;/strong&gt;。这不符合&amp;quot;混合&amp;quot;的逻辑，更像是在强制选择的压力下，筛选机制发生了某种扭曲。&lt;/p&gt;
+&lt;p&gt;类似的断裂也出现在&amp;quot;书籍参与度&amp;quot;上。 D 组的&amp;quot;书籍组&amp;quot;在&amp;quot;偏好分数&amp;quot;上虽然符合&amp;quot;中庸&amp;quot;预期，但在具体行为维度上却出现了&amp;quot;跳跃&amp;rdquo;。&lt;strong&gt;这暗示强制选择塑造的群体，并非简单、平滑地混合了原有群体的特征，其内部构成可能更加复杂和难以解释&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;模拟实验二：如果 A 组的人只能看到部分中立选项，会发生什么？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;模拟实验二如果-a-组的人只能看到部分中立选项会发生什么&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a8%a1%e6%8b%9f%e5%ae%9e%e9%aa%8c%e4%ba%8c%e5%a6%82%e6%9e%9c-a-%e7%bb%84%e7%9a%84%e4%ba%ba%e5%8f%aa%e8%83%bd%e7%9c%8b%e5%88%b0%e9%83%a8%e5%88%86%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e4%bc%9a%e5%8f%91%e7%94%9f%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;那位同学的论点其实暗含一个更强的假设：&lt;strong&gt;即便只是部分的中立选项缺失，也会促使人们表露出&amp;quot;内心更真实的偏好&amp;quot;&lt;/strong&gt;。顺着这个思路， B 组（只有&amp;quot;都喜欢&amp;quot;）和 C 组（只有&amp;quot;都不喜欢&amp;quot;）就应该能揭示出某种&lt;strong&gt;非随机的趋势&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;但如果我的&amp;quot;随机噪声&amp;quot;假设成立，那么在这些部分版本中，被迫做选择的人群，其选择模式应该&lt;strong&gt;和纯粹的随机分配没有区别&lt;/strong&gt;。是骡子是马，拉出来遛遛。&lt;/p&gt;
+&lt;p&gt;思路和之前的模拟类似，但这次更&amp;quot;精细&amp;quot;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;同样以 A 组（全选项）的数据作为人群&amp;quot;真实结构&amp;quot;的最佳估计&lt;/strong&gt;。然后我问自己：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;对于 B 组（只有&amp;quot;都喜欢&amp;quot;）&lt;/strong&gt;：如果 A 组的参与者看不到&amp;quot;都不喜欢&amp;quot;选项，那些原本选了&amp;quot;都不喜欢&amp;quot;的人会怎么做？&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对于 C 组（只有&amp;quot;都不喜欢&amp;quot;）&lt;/strong&gt;：如果 A 组的参与者看不到&amp;quot;都喜欢&amp;quot;选项，那些原本选了&amp;quot;都喜欢&amp;quot;的人会怎么做？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我设想了两种决策规则，并对每种情况进行了5,000次蒙特卡洛模拟：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;随机噪声&amp;quot;规则&lt;/strong&gt;：假设这部分中立者完全随机地二选一（50% 选电影，50% 选书籍）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;行为推断&amp;quot;规则&lt;/strong&gt;：用 A 组中&amp;quot;明确选择者&amp;rdquo;（选了电影或书籍的人）的数据训练一个逻辑回归模型，根据他们的&lt;code&gt;电影参与度&lt;/code&gt;、&lt;code&gt;书籍参与度&lt;/code&gt;、&lt;code&gt;偏好分数&lt;/code&gt;来预测&amp;quot;如果必须选，选电影的概率有多大&amp;rdquo;，然后用这个模型去预测中立者的选择。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;结果：随机噪声再次胜利&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;结果随机噪声再次胜利&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bb%93%e6%9e%9c%e9%9a%8f%e6%9c%ba%e5%99%aa%e5%a3%b0%e5%86%8d%e6%ac%a1%e8%83%9c%e5%88%a9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;模拟结果清晰地展示在下图中：&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../simulation_partial_both.png&#34; alt=&#34;simulation_partial_both.png&#34;  loading=&#34;lazy&#34; /&gt;
+
+    &lt;img src=&#34;../simulation_partial_neither.png&#34; alt=&#34;simulation_partial_neither.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键发现：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;B 组（只有&amp;quot;都喜欢&amp;quot;）&lt;/strong&gt;：实际观测到的电影选择比例是 &lt;strong&gt;69.23%&lt;/strong&gt;。&amp;ldquo;随机噪声&amp;quot;规则模拟出的 95% 置信区间为 &lt;strong&gt;[66.67%， 72.22%]&lt;/strong&gt;，稳稳地包含了实际值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C 组（只有&amp;quot;都不喜欢&amp;rdquo;）&lt;/strong&gt;：实际观测到的电影选择比例是 &lt;strong&gt;63.64%&lt;/strong&gt;。&amp;ldquo;随机噪声&amp;quot;规则模拟出的 95% 置信区间为 &lt;strong&gt;[51.43%， 68.57%]&lt;/strong&gt;，同样包含了实际值。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着，从统计上看，&lt;strong&gt;我无法区分B、C两个版本的实际观测结果，与&amp;quot;中立者完全随机乱选&amp;quot;所产生的结果&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;有趣的是，&amp;ldquo;行为推断&amp;quot;规则在 B 组中反而&amp;quot;翻车&amp;quot;了——它的预测区间没有包含实际值。这很可能是因为模型过度依赖 A 组中&amp;quot;明确选择者&amp;quot;的极端行为模式，当它去预测那些行为更&amp;quot;中庸&amp;quot;的中立者时，产生了有偏差的外推。这反而进一步佐证了&lt;strong&gt;中立者的选择模式与明确偏好者不同&lt;/strong&gt;，用后者的规律去预测前者，未必行得通。&lt;/p&gt;
+&lt;h3&gt;横向对比：所有版本的选择模式&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;横向对比所有版本的选择模式&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a8%aa%e5%90%91%e5%af%b9%e6%af%94%e6%89%80%e6%9c%89%e7%89%88%e6%9c%ac%e7%9a%84%e9%80%89%e6%8b%a9%e6%a8%a1%e5%bc%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;为了获得更全局的视角，我将所有四个版本的几个核心指标放在一起对比：&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../version_comparison.png&#34; alt=&#34;version_comparison.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这张对比图揭示了几件有趣的事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;都喜欢&amp;quot;是绝对的主流&lt;/strong&gt;：在提供该选项的A和 B 组中，分别有 50% 和 64.4% 的人选择了它。相比之下，&amp;ldquo;都不喜欢&amp;quot;的吸引力小得多（在A和 C 组中分别只有 2.8% 和 5.2%）。人们更倾向于表达积极的&amp;quot;都喜欢&amp;rdquo;，而非消极的&amp;quot;都不喜欢&amp;rdquo;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;电影选择比例相对稳定&lt;/strong&gt;：尽管中立选项的设置千差万别，但最终&amp;quot;明确选择者中选择电影的比例&amp;quot;在四个版本间波动并不算剧烈（A: 70.6%, B: 69.2%, C: 63.6%, D: 64.7%）。这或许暗示了人群底层对电影和书籍的相对偏好有一个大致的分布。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一个模糊的趋势&lt;/strong&gt;：如果按照&amp;quot;中立选项越来越少&amp;quot;的顺序（A → B/C → D）来看，电影选择比例似乎有&lt;strong&gt;微弱下降&lt;/strong&gt;的趋势。但由于样本量限制，这个趋势非常微弱，且完全在随机波动的范围内，远不能作为&amp;quot;揭示潜在偏好&amp;quot;的证据。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;样本量告急 &lt;code&gt;: (&lt;/code&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;样本量告急--&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a0%b7%e6%9c%ac%e9%87%8f%e5%91%8a%e6%80%a5--&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;至此，我可以回答最初的问题了吗？&lt;strong&gt;谨慎地说，在这个实验的范围内，我没有找到证据支持&amp;quot;强制选择能揭示潜在偏好&amp;quot;这一假设&lt;/strong&gt;。观察到的结果，与&amp;quot;中立者随机选择&amp;quot;这一零假设在统计上相容。&lt;/p&gt;
+&lt;p&gt;更具体地说：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;如果全部删除（D 组）&lt;/strong&gt;，结果与&amp;quot;随机噪声&amp;quot;无法区分。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果只删除一部分（B 或 C 组）&lt;/strong&gt;，结果依然与&amp;quot;随机噪声&amp;quot;无法区分。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在本次实验的范围内，&lt;strong&gt;我没有找到任何统计证据支持&amp;quot;删除中立选项（无论是全部还是部分）能帮助揭示更深层、更真实的偏好&amp;quot;这一假设&lt;/strong&gt;。所有观测到的模式，都可以用&amp;quot;中立者被迫进行近乎随机的选择&amp;quot;来解释。&lt;/p&gt;
+&lt;p&gt;这强化了我的核心观点：简单粗暴地删除中立选项，更像是在&lt;strong&gt;用引入随机噪声的方式，来掩盖我们不愿面对的复杂性&lt;/strong&gt;，而非找到了什么洞察人心的&amp;quot;魔法钥匙&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;然而，我必须诚实地指出一个根本的局限性：样本量&lt;/strong&gt;。我的模拟基于 A 组的 72 个样本，其中只有 38 个中立者。虽然 10,000 次模拟提供了稳定的分布估计，但这个小样本的&amp;quot;基石&amp;quot;本身可能就不够稳固。逻辑回归模型在区区 34 个明确选择者上训练，去预测 38 个中立者，其可靠性存疑。小样本下，置信区间会变宽，任何结论的&amp;quot;分辨率&amp;quot;都不够高。&lt;/p&gt;
+&lt;p&gt;因此，这个验证章节仅仅展示了如何利用多版本数据构造&amp;quot;反事实模拟&amp;quot;来检验深层次的假设。它强烈提示我，对&amp;quot;强制选择反映潜在趋势&amp;quot;的说法应持怀疑态度，但我目前的数据，尚不足以在统计上给出斩钉截铁的否定。&lt;/p&gt;
+&lt;h2&gt;08 结论与反思&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;08-结论与反思&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#08-%e7%bb%93%e8%ae%ba%e4%b8%8e%e5%8f%8d%e6%80%9d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;本次实验通过四个平行问卷版本的对比分析，探讨了中立选项对数据质量的影响。核心结论如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;强制选择会扭曲群体特征&lt;/strong&gt;：在必须二选一（D 组）的条件下，“电影组”与“书籍组”在电影参与度等行为指标上的差异显著缩小。这表明，强制中立者做出的选择会作为噪声混入数据，&lt;strong&gt;削弱了研究者可观测的真实群体间差异信号&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强制选择的数据最具一致性&lt;/strong&gt;：Bootstrap 稳定性分析得出了一个关键且反直觉的发现——强制选择版本（D 组）得出的相关性估计&lt;strong&gt;置信区间最窄（0.291），统计一致性最高&lt;/strong&gt;。这揭示了问卷设计中的一个深刻权衡：强制选择以牺牲&lt;strong&gt;测量效度&lt;/strong&gt;（无法反映真实、连续的偏好光谱）为代价，换取了更高的&lt;strong&gt;测量信度&lt;/strong&gt;（迫使所有人在同一把二元标尺上作答，减少了回答变异）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“都喜欢”选项影响巨大且复杂&lt;/strong&gt;：该选项在提供时吸引了超半数参与者（A 组 50%，B 组 64.4%）。简单删除它会扭曲样本构成，但保留它也可能引发问题。提供“都喜欢”作为&lt;strong&gt;唯一中立选项&lt;/strong&gt;的B版本，其数据稳定性最差（置信区间宽度达 0.565），表明这一设计可能诱发了最大的回答不确定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未发现强制选择能揭示潜在偏好&lt;/strong&gt;：蒙特卡洛模拟显示，将A版本的中立者依据不同规则强制分配后，其预测结果与实际观测到的D版本选择比例无显著差异。&lt;strong&gt;本实验未找到统计证据支持“强制选择能反映更深层潜在偏好”的说法&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;对问卷设计的启示：“单一中立选项”情境的延伸讨论&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;对问卷设计的启示单一中立选项情境的延伸讨论&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%af%b9%e9%97%ae%e5%8d%b7%e8%ae%be%e8%ae%a1%e7%9a%84%e5%90%af%e7%a4%ba%e5%8d%95%e4%b8%80%e4%b8%ad%e7%ab%8b%e9%80%89%e9%a1%b9%e6%83%85%e5%a2%83%e7%9a%84%e5%bb%b6%e4%bc%b8%e8%ae%a8%e8%ae%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;本研究的设计恰好对“仅添加一个中立选项”的常见做法提供了深刻洞察。由于调查主题（电影 vs. 书籍偏好）的特性，“都不喜欢”是少数派，而“都喜欢”是主流中立态度。这导致：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C组（仅“都不喜欢”）&lt;/strong&gt; 在结构上趋近于D组（强制选择），因为只有极少数人选择该选项，大部分参与者仍需在“电影”和“书籍”中做明确选择，因此其数据稳定性也较好。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B组（仅“都喜欢”）&lt;/strong&gt; 则与A组（全选项）相似，因为主流中立群体被“都喜欢”选项有效吸纳。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正是这种结构相似性使我们发现：&lt;strong&gt;当“都喜欢”作为唯一的中立选项时，它虽然吸纳了大量态度模糊的参与者，但并未成功地将他们转化为高质量的数据点。&lt;strong&gt;相反，它创造了一个“模糊的中间地带”，使得剩余“明确选择者”群体的行为模式变得不一致，最终导致统计估计的剧烈波动（B 组最不稳定）。这警示我们，在设计类似主题（如测量偏好、满意度，其中立态度多为积极/双向的“都喜欢”）的问卷时，简单地添加一个看似友好的“都喜欢”选项，可能是一种&lt;/strong&gt;懒惰且危险&lt;/strong&gt;的简化。它既无法像强制选择那样提供一致的测量标尺，也无法像提供完整选项那样揭示态度的真实分布。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;因此，更好的做法是主动管理而非回避复杂性&lt;/strong&gt;。研究者应根据理论需要，选择以下路径之一：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;完整映射&lt;/strong&gt;：提供“都喜欢”与“都不喜欢”选项，将中立者作为一个&lt;strong&gt;独立的分析类别&lt;/strong&gt;，研究其独特特征，而非强行将其归入偏好阵营。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;连续测量&lt;/strong&gt;：放弃非此即彼的分类，采用&lt;strong&gt;李克特量表或滑动条&lt;/strong&gt;直接测量对两个对象的喜爱程度，将连续得分之差作为偏好强度指标。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;明确决策&lt;/strong&gt;：如果研究问题必须要求一个决定（如产品A/B测试），则可采用强制选择，但必须清醒认识到其结论在“群体差异”层面效度有限，并应辅以其他测量方式交叉验证。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最终，问卷设计没有“一刀切”的完美方案。本研究揭示了不同设计在&lt;strong&gt;效度&lt;/strong&gt;（揭示真相）、&lt;strong&gt;信度&lt;/strong&gt;（稳定一致）和&lt;strong&gt;信息丰富度&lt;/strong&gt;之间的内在权衡。明智的设计始于对研究目标的审慎思考，以及对“简单化”背后所隐藏的数据代价的充分认知。&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
